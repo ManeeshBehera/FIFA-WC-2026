@@ -1,0 +1,12 @@
+.venv
+node_modules
+webapp/node_modules
+__pycache__
+*.pyc
+outputs
+data/results.csv
+data/goalscorers.csv
+data/news_articles.json
+.git
+.DS_Store
+.claude

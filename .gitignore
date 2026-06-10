@@ -1,0 +1,20 @@
+# environments
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# bulky re-downloadable caches (the engine fetches these on demand)
+data/results.csv
+data/goalscorers.csv
+data/news_articles.json
+
+# regenerable outputs
+outputs/api/
+outputs/match_maps/
+outputs/predictions*.csv
+outputs/REPORT.md
+outputs/TEAM_RADAR.md
+
+# OS noise
+.DS_Store

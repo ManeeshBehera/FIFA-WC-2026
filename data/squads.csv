@@ -1,0 +1,1247 @@
+team,player,position,age,caps,goals,club,captain
+Czechia,Matěj Kovář,GK,26,20,0,PSV Eindhoven,False
+Czechia,David Zima,DF,25,25,1,Slavia Prague,False
+Czechia,Tomáš Holeš,DF,33,41,2,Slavia Prague,False
+Czechia,Robin Hranáč,DF,26,14,1,TSG Hoffenheim,False
+Czechia,Vladimír Coufal,DF,33,62,2,TSG Hoffenheim,False
+Czechia,Štěpán Chaloupek,DF,23,5,0,Slavia Prague,False
+Czechia,Ladislav Krejčí,DF,27,27,5,Wolverhampton Wanderers,True
+Czechia,Vladimír Darida,MF,35,79,8,Hradec Králové,False
+Czechia,Adam Hložek,FW,23,43,5,TSG Hoffenheim,False
+Czechia,Patrik Schick,FW,30,53,26,Bayer Leverkusen,False
+Czechia,Jan Kuchta,FW,29,31,3,Sparta Prague,False
+Czechia,Lukáš Červ,MF,25,17,2,Viktoria Plzeň,False
+Czechia,Mojmír Chytil,FW,27,22,6,Slavia Prague,False
+Czechia,David Jurásek,DF,25,18,1,Slavia Prague,False
+Czechia,Pavel Šulc,FW,25,21,5,Lyon,False
+Czechia,Jindřich Staněk,GK,30,14,0,Slavia Prague,False
+Czechia,Lukáš Provod,MF,29,38,3,Slavia Prague,False
+Czechia,Michal Sadílek,MF,27,35,1,Slavia Prague,False
+Czechia,Tomáš Chorý,FW,31,22,7,Slavia Prague,False
+Czechia,Jaroslav Zelený,DF,33,23,0,Sparta Prague,False
+Czechia,David Douděra,DF,28,17,2,Slavia Prague,False
+Czechia,Tomáš Souček,MF,31,90,17,West Ham United,False
+Czechia,Lukáš Horníček,GK,23,1,0,Braga,False
+Czechia,Alexandr Sojka,MF,23,2,0,Viktoria Plzeň,False
+Czechia,Hugo Sochůrek,MF,18,1,0,Sparta Prague,False
+Czechia,Denis Višinský,FW,23,2,1,Viktoria Plzeň,False
+Mexico,Raúl Rangel,GK,26,14,0,Guadalajara,False
+Mexico,Jorge Sánchez,DF,28,59,3,PAOK,False
+Mexico,César Montes,DF,29,67,4,Lokomotiv Moscow,False
+Mexico,Edson Álvarez,DF,28,98,7,Fenerbahçe,True
+Mexico,Johan Vásquez,DF,27,46,3,Genoa,False
+Mexico,Érik Lira,MF,26,25,0,Cruz Azul,False
+Mexico,Luis Romo,MF,31,63,4,Guadalajara,False
+Mexico,Álvaro Fidalgo,MF,29,4,0,Real Betis,False
+Mexico,Raúl Jiménez,FW,35,124,45,Fulham,False
+Mexico,Alexis Vega,FW,28,52,7,Toluca,False
+Mexico,Santiago Giménez,FW,25,47,6,Milan,False
+Mexico,Carlos Acevedo,GK,30,7,0,Santos Laguna,False
+Mexico,Guillermo Ochoa,GK,40,152,0,AEL Limassol,False
+Mexico,Armando González,FW,23,7,1,Guadalajara,False
+Mexico,Israel Reyes,DF,26,34,2,América,False
+Mexico,Julián Quiñones,FW,29,22,2,Al-Qadsiah,False
+Mexico,Orbelín Pineda,MF,30,92,12,AEK Athens,False
+Mexico,Obed Vargas,MF,20,6,0,Atlético Madrid,False
+Mexico,Gilberto Mora,MF,17,8,0,Tijuana,False
+Mexico,Mateo Chávez,DF,22,10,0,AZ,False
+Mexico,César Huerta,FW,25,26,3,Anderlecht,False
+Mexico,Guillermo Martínez,FW,31,12,3,Pumas,False
+Mexico,Jesús Gallardo,DF,31,121,3,Toluca,False
+Mexico,Luis Chávez,MF,30,45,5,Dynamo Moscow,False
+Mexico,Roberto Alvarado,FW,27,67,5,Guadalajara,False
+Mexico,Brian Gutiérrez,MF,22,7,2,Guadalajara,False
+South Africa,Ronwen Williams,GK,34,62,0,Mamelodi Sundowns,True
+South Africa,Thabang Matuludi,DF,27,2,0,Polokwane City,False
+South Africa,Khulumani Ndamane,DF,22,5,0,Mamelodi Sundowns,False
+South Africa,Teboho Mokoena,MF,29,51,9,Mamelodi Sundowns,False
+South Africa,Thalente Mbatha,MF,26,14,3,Orlando Pirates,False
+South Africa,Aubrey Modiba,DF,30,44,3,Mamelodi Sundowns,False
+South Africa,Oswin Appollis,FW,24,25,8,Orlando Pirates,False
+South Africa,Tshepang Moremi,FW,25,9,1,Orlando Pirates,False
+South Africa,Lyle Foster,FW,25,26,10,Burnley,False
+South Africa,Relebohile Mofokeng,FW,21,12,0,Orlando Pirates,False
+South Africa,Themba Zwane,MF,36,53,12,Mamelodi Sundowns,False
+South Africa,Thapelo Maseko,FW,22,9,1,AEL Limassol,False
+South Africa,Sphephelo Sithole,MF,27,27,1,Tondela,False
+South Africa,Mbekezeli Mbokazi,DF,20,10,1,Chicago Fire FC,False
+South Africa,Iqraam Rayners,FW,30,13,4,Mamelodi Sundowns,False
+South Africa,Sipho Chaine,GK,29,3,0,Orlando Pirates,False
+South Africa,Evidence Makgopa,FW,26,26,6,Orlando Pirates,False
+South Africa,Samukele Kabini,DF,22,5,0,Molde,False
+South Africa,Nkosinathi Sibisi,DF,30,19,0,Orlando Pirates,False
+South Africa,Khuliso Mudau,DF,31,32,1,Mamelodi Sundowns,False
+South Africa,Ime Okon,DF,22,7,1,Hannover 96,False
+South Africa,Ricardo Goss,GK,32,4,0,Siwelele,False
+South Africa,Jayden Adams,MF,25,4,0,Mamelodi Sundowns,False
+South Africa,Olwethu Makhanya,DF,22,0,0,Philadelphia Union,False
+South Africa,Kamogelo Sebelebele,FW,23,2,0,Orlando Pirates,False
+South Africa,Bradley Cross,DF,25,0,0,Kaizer Chiefs,False
+South Korea,Kim Seung-gyu,GK,35,87,0,FC Tokyo,False
+South Korea,Lee Han-beom,DF,23,8,0,Midtjylland,False
+South Korea,Lee Gi-hyuk,MF,25,3,0,Gangwon FC,False
+South Korea,Kim Min-jae,DF,29,79,4,Bayern Munich,False
+South Korea,Kim Tae-hyeon,DF,25,7,0,Kashima Antlers,False
+South Korea,Hwang In-beom,MF,29,73,6,Feyenoord,False
+South Korea,Son Heung-min,FW,33,144,56,Los Angeles FC,True
+South Korea,Paik Seung-ho,MF,29,27,3,Birmingham City,False
+South Korea,Cho Gue-sung,FW,28,44,12,Midtjylland,False
+South Korea,Lee Jae-sung,MF,33,105,15,Mainz 05,False
+South Korea,Hwang Hee-chan,MF,30,79,17,Wolverhampton Wanderers,False
+South Korea,Song Bum-keun,GK,28,3,0,Jeonbuk Hyundai Motors,False
+South Korea,Lee Tae-seok,DF,23,15,1,Austria Wien,False
+South Korea,Cho Wi-je,DF,24,1,0,Jeonbuk Hyundai Motors,False
+South Korea,Kim Moon-hwan,DF,30,35,0,Daejeon Hana Citizen,False
+South Korea,Park Jin-seob,DF,30,14,1,Zhejiang,False
+South Korea,Bae Jun-ho,MF,22,13,2,Stoke City,False
+South Korea,Oh Hyeon-gyu,FW,25,27,6,Beşiktaş,False
+South Korea,Lee Kang-in,MF,25,47,11,Paris Saint-Germain,False
+South Korea,Yang Hyun-jun,MF,24,9,0,Celtic,False
+South Korea,Jo Hyeon-woo,GK,34,48,0,Ulsan HD,False
+South Korea,Seol Young-woo,DF,27,34,0,Red Star Belgrade,False
+South Korea,Jens Castrop,DF,22,7,0,Borussia Mönchengladbach,False
+South Korea,Kim Jin-gyu,MF,29,22,3,Jeonbuk Hyundai Motors,False
+South Korea,Eom Ji-sung,MF,24,9,2,Swansea City,False
+South Korea,Lee Dong-gyeong,MF,28,18,4,Ulsan HD,False
+Bosnia and Herzegovina,Nikola Vasilj,GK,30,26,0,FC St. Pauli,False
+Bosnia and Herzegovina,Nihad Mujakić,DF,28,12,1,Gaziantep,False
+Bosnia and Herzegovina,Dennis Hadžikadunić,DF,27,32,0,Sampdoria,False
+Bosnia and Herzegovina,Tarik Muharemović,DF,23,14,1,Sassuolo,False
+Bosnia and Herzegovina,Sead Kolašinac,DF,32,65,0,Atalanta,False
+Bosnia and Herzegovina,Benjamin Tahirović,MF,23,28,2,Brøndby,False
+Bosnia and Herzegovina,Amar Dedić,DF,23,28,1,Benfica,False
+Bosnia and Herzegovina,Armin Gigović,MF,24,20,1,Young Boys,False
+Bosnia and Herzegovina,Samed Baždar,FW,22,13,1,Jagiellonia Białystok,False
+Bosnia and Herzegovina,Ermedin Demirović,FW,28,40,4,VfB Stuttgart,False
+Bosnia and Herzegovina,Edin Džeko,FW,40,148,73,Schalke 04,True
+Bosnia and Herzegovina,Mladen Jurkas,GK,18,0,0,Borac Banja Luka,False
+Bosnia and Herzegovina,Ivan Bašić,MF,24,17,0,Astana,False
+Bosnia and Herzegovina,Ivan Šunjić,MF,29,11,0,Pafos,False
+Bosnia and Herzegovina,Amar Memić,MF,25,13,1,Viktoria Plzeň,False
+Bosnia and Herzegovina,Amir Hadžiahmetović,MF,29,36,0,Hull City,False
+Bosnia and Herzegovina,Dženis Burnić,MF,28,20,0,Karlsruher SC,False
+Bosnia and Herzegovina,Nikola Katić,DF,29,17,2,Schalke 04,False
+Bosnia and Herzegovina,Kerim Alajbegović,FW,18,10,1,Red Bull Salzburg,False
+Bosnia and Herzegovina,Esmir Bajraktarević,FW,21,16,1,PSV Eindhoven,False
+Bosnia and Herzegovina,Stjepan Radeljić,DF,28,5,0,Rijeka,False
+Bosnia and Herzegovina,Martin Zlomislić,GK,27,3,0,Rijeka,False
+Bosnia and Herzegovina,Haris Tabaković,FW,31,10,4,Borussia Mönchengladbach,False
+Bosnia and Herzegovina,Nidal Čelik,DF,19,2,0,Lens,False
+Bosnia and Herzegovina,Jovo Lukić,FW,27,3,0,Universitatea Cluj,False
+Bosnia and Herzegovina,Ermin Mahmić,MF,21,2,0,Slovan Liberec,False
+Canada,Dayne St. Clair,GK,29,20,0,Inter Miami CF,False
+Canada,Alistair Johnston,DF,27,58,1,Celtic,False
+Canada,Alfie Jones,DF,28,2,0,Middlesbrough,False
+Canada,Luc de Fougerolles,DF,20,13,0,Dender,False
+Canada,Joel Waterman,DF,30,17,0,Chicago Fire FC,False
+Canada,Mathieu Choinière,MF,27,23,0,Los Angeles FC,False
+Canada,Stephen Eustáquio,MF,29,56,4,Los Angeles FC,False
+Canada,Ismaël Koné,MF,23,40,4,Sassuolo,False
+Canada,Cyle Larin,FW,31,90,30,Southampton,False
+Canada,Jonathan David,FW,26,77,39,Juventus,False
+Canada,Liam Millar,MF,26,41,1,Hull City,False
+Canada,Tani Oluwaseyi,FW,26,24,2,Villarreal,False
+Canada,Derek Cornelius,DF,28,44,1,Rangers,False
+Canada,Jacob Shaffelburg,MF,26,31,6,Los Angeles FC,False
+Canada,Moïse Bombito,DF,26,20,0,Nice,False
+Canada,Maxime Crépeau,GK,32,32,0,Orlando City SC,False
+Canada,Tajon Buchanan,FW,27,60,8,Villarreal,False
+Canada,Owen Goodman,GK,22,0,0,Barnsley,False
+Canada,Alphonso Davies,DF,25,58,15,Bayern Munich,True
+Canada,Ali Ahmed,FW,25,24,1,Norwich City,False
+Canada,Jonathan Osorio,MF,33,90,10,Toronto FC,False
+Canada,Richie Laryea,DF,31,75,1,Toronto FC,False
+Canada,Niko Sigur,DF,22,19,2,Hajduk Split,False
+Canada,Promise David,FW,24,10,3,Union Saint-Gilloise,False
+Canada,Nathan Saliba,MF,22,15,2,Anderlecht,False
+Canada,Jayden Nelson,MF,24,14,3,Austin FC,False
+Qatar,Mahmud Abunada,GK,26,5,0,Al-Rayyan,False
+Qatar,Pedro Miguel,DF,35,99,3,Al-Sadd,False
+Qatar,Lucas Mendes,DF,35,25,1,Al-Wakrah,False
+Qatar,Issa Laye,DF,28,4,0,Al-Arabi,False
+Qatar,Jassem Gaber,DF,24,32,1,Al-Rayyan,False
+Qatar,Abdulaziz Hatem,MF,36,117,11,Al-Rayyan,False
+Qatar,Ahmed Alaaeldin,FW,33,68,9,Al-Rayyan,False
+Qatar,Edmilson Junior,FW,31,16,0,Al-Duhail,False
+Qatar,Mohammed Muntari,FW,32,67,16,Al-Gharafa,False
+Qatar,Hassan Al-Haydos,FW,35,186,41,Al-Sadd,True
+Qatar,Akram Afif,FW,29,125,39,Al-Sadd,False
+Qatar,Karim Boudiaf,MF,35,118,5,Al-Duhail,False
+Qatar,Ayoub Al-Oui,DF,21,6,0,Al-Gharafa,False
+Qatar,Homam Ahmed,DF,26,68,3,Cultural Leonesa,False
+Qatar,Yusuf Abdurisag,FW,26,39,3,Al-Wakrah,False
+Qatar,Boualem Khoukhi,DF,35,116,20,Al-Sadd,False
+Qatar,Ahmed Al-Ganehi,MF,25,13,1,Al-Gharafa,False
+Qatar,Sultan Al-Brake,DF,30,17,0,Al-Duhail,False
+Qatar,Almoez Ali,FW,29,115,55,Al-Duhail,False
+Qatar,Ahmed Fathy,MF,33,48,0,Al-Arabi,False
+Qatar,Salah Zakaria,GK,27,8,0,Al-Duhail,False
+Qatar,Meshaal Barsham,GK,28,52,0,Al-Sadd,False
+Qatar,Assim Madibo,MF,29,51,0,Al-Wakrah,False
+Qatar,Tahsin Jamshid,FW,19,3,0,Al-Duhail,False
+Qatar,Al-Hashmi Al-Hussain,DF,22,8,0,Al-Arabi,False
+Qatar,Mohamed Manai,FW,23,10,0,Al-Shamal,False
+Switzerland,Gregor Kobel,GK,28,21,0,Borussia Dortmund,False
+Switzerland,Miro Muheim,DF,28,10,0,Hamburger SV,False
+Switzerland,Silvan Widmer,DF,33,60,5,Mainz 05,False
+Switzerland,Nico Elvedi,DF,29,67,3,Borussia Mönchengladbach,False
+Switzerland,Manuel Akanji,DF,30,81,4,Inter Milan,False
+Switzerland,Denis Zakaria,MF,29,65,3,Monaco,False
+Switzerland,Breel Embolo,FW,29,86,24,Rennes,False
+Switzerland,Remo Freuler,MF,34,88,11,Bologna,False
+Switzerland,Johan Manzambi,MF,20,12,3,SC Freiburg,False
+Switzerland,Granit Xhaka,MF,33,146,17,Sunderland,True
+Switzerland,Dan Ndoye,FW,25,31,8,Nottingham Forest,False
+Switzerland,Yvon Mvogo,GK,32,13,0,Lorient,False
+Switzerland,Ricardo Rodriguez,DF,33,138,9,Real Betis,False
+Switzerland,Ardon Jashari,MF,23,8,0,Milan,False
+Switzerland,Djibril Sow,MF,29,52,0,Sevilla,False
+Switzerland,Christian Fassnacht,FW,32,23,5,Young Boys,False
+Switzerland,Rubén Vargas,FW,27,61,11,Sevilla,False
+Switzerland,Eray Cömert,DF,28,22,0,Valencia,False
+Switzerland,Noah Okafor,FW,26,25,2,Leeds United,False
+Switzerland,Michel Aebischer,MF,29,40,2,Pisa,False
+Switzerland,Marvin Keller,GK,23,1,0,Young Boys,False
+Switzerland,Fabian Rieder,MF,24,28,1,FC Augsburg,False
+Switzerland,Zeki Amdouni,FW,25,29,11,Burnley,False
+Switzerland,Aurèle Amenda,DF,22,7,0,Eintracht Frankfurt,False
+Switzerland,Luca Jaquez,DF,23,3,0,VfB Stuttgart,False
+Switzerland,Cedric Itten,FW,29,15,5,Fortuna Düsseldorf,False
+Brazil,Alisson,GK,33,78,0,Liverpool,False
+Brazil,Éderson Silva,MF,26,3,0,Atalanta,False
+Brazil,Gabriel Magalhães,DF,28,17,1,Arsenal,False
+Brazil,Marquinhos,DF,32,105,7,Paris Saint-Germain,True
+Brazil,Casemiro,MF,34,86,9,Manchester United,False
+Brazil,Alex Sandro,DF,35,45,2,Flamengo,False
+Brazil,Vinícius Júnior,FW,25,49,9,Real Madrid,False
+Brazil,Bruno Guimarães,MF,28,43,3,Newcastle United,False
+Brazil,Matheus Cunha,FW,27,23,1,Manchester United,False
+Brazil,Neymar,FW,34,128,79,Santos,False
+Brazil,Raphinha,FW,29,39,11,Barcelona,False
+Brazil,Weverton,GK,38,11,0,Grêmio,False
+Brazil,Danilo Luiz,DF,34,70,1,Flamengo,False
+Brazil,Bremer,DF,29,8,1,Juventus,False
+Brazil,Léo Pereira,DF,30,4,0,Flamengo,False
+Brazil,Douglas Santos,DF,32,7,0,Zenit Saint Petersburg,False
+Brazil,Fabinho,MF,32,33,0,Al-Ittihad,False
+Brazil,Danilo Santos,MF,25,4,2,Botafogo,False
+Brazil,Endrick,FW,19,17,4,Lyon,False
+Brazil,Lucas Paquetá,MF,28,63,13,Flamengo,False
+Brazil,Luiz Henrique,FW,25,15,2,Zenit Saint Petersburg,False
+Brazil,Gabriel Martinelli,FW,24,23,4,Arsenal,False
+Brazil,Ederson Moraes,GK,32,32,0,Fenerbahçe,False
+Brazil,Roger Ibañez,DF,27,7,0,Al-Ahli,False
+Brazil,Igor Thiago,FW,24,4,2,Brentford,False
+Brazil,Rayan,FW,19,2,1,Bournemouth,False
+Haiti,Johny Placide,GK,38,81,0,Bastia,True
+Haiti,Carlens Arcus,DF,29,53,1,Angers,False
+Haiti,Keeto Thermoncy,DF,20,1,0,Young Boys,False
+Haiti,Ricardo Adé,DF,36,59,2,LDU Quito,False
+Haiti,Hannes Delcroix,DF,27,7,0,Lugano,False
+Haiti,Carl Sainté,MF,23,26,0,El Paso Locomotive FC,False
+Haiti,Derrick Etienne Jr.,FW,29,48,8,Toronto FC,False
+Haiti,Martin Expérience,DF,27,21,0,Nancy,False
+Haiti,Duckens Nazon,FW,32,78,44,Esteghlal,False
+Haiti,Jean-Ricner Bellegarde,MF,27,10,0,Wolverhampton Wanderers,False
+Haiti,Louicius Deedson,FW,25,32,10,FC Dallas,False
+Haiti,Alexandre Pierre,GK,25,15,0,Sochaux,False
+Haiti,Duke Lacroix,DF,32,16,3,Colorado Springs Switchbacks FC,False
+Haiti,Leverton Pierre,MF,28,33,0,Vizela,False
+Haiti,Ruben Providence,FW,24,15,3,Almere City,False
+Haiti,Lenny Joseph,FW,25,2,1,Ferencváros,False
+Haiti,Danley Jean Jacques,MF,26,30,6,Philadelphia Union,False
+Haiti,Wilson Isidor,FW,25,4,2,Sunderland,False
+Haiti,Yassin Fortuné,FW,27,4,0,Vizela,False
+Haiti,Frantzdy Pierrot,FW,31,51,34,Çaykur Rizespor,False
+Haiti,Josué Casimir,FW,24,7,0,Auxerre,False
+Haiti,Jean-Kévin Duverne,DF,28,17,1,Gent,False
+Haiti,Josué Duverger,GK,26,6,0,Cosmos Koblenz,False
+Haiti,Wilguens Paugain,DF,24,8,0,Zulte Waregem,False
+Haiti,Dominique Simon,MF,25,2,0,Tatran Prešov,False
+Haiti,Woodensky Pierre,MF,21,1,0,Violette,False
+Morocco,Yassine Bounou,GK,35,90,0,Al-Hilal,False
+Morocco,Achraf Hakimi,DF,27,96,11,Paris Saint-Germain,True
+Morocco,Noussair Mazraoui,DF,28,45,2,Manchester United,False
+Morocco,Sofyan Amrabat,MF,29,75,0,Real Betis,False
+Morocco,Nayef Aguerd,DF,30,64,2,Marseille,False
+Morocco,Ayyoub Bouaddi,MF,18,3,0,Lille,False
+Morocco,Chemsdine Talbi,MF,21,5,0,Sunderland,False
+Morocco,Azzedine Ounahi,MF,26,49,9,Girona,False
+Morocco,Soufiane Rahimi,FW,30,37,12,Al Ain,False
+Morocco,Brahim Díaz,FW,26,26,14,Real Madrid,False
+Morocco,Ismael Saibari,MF,25,31,9,PSV Eindhoven,False
+Morocco,Munir Mohamedi,GK,37,53,0,RS Berkane,False
+Morocco,Zakaria El Ouahdi,DF,24,3,0,Genk,False
+Morocco,Issa Diop,DF,29,4,0,Fulham,False
+Morocco,Samir El Mourabet,MF,20,4,0,Strasbourg,False
+Morocco,Gessime Yassine,MF,20,5,0,Strasbourg,False
+Morocco,Abde Ezzalzouli,FW,24,37,2,Real Betis,False
+Morocco,Chadi Riad,DF,22,6,1,Crystal Palace,False
+Morocco,Youssef Belammari,DF,27,19,0,Al Ahly,False
+Morocco,Ayoub El Kaabi,FW,32,71,35,Olympiacos,False
+Morocco,Ayoube Amaimouni,FW,21,2,0,Eintracht Frankfurt,False
+Morocco,Ahmed Reda Tagnaouti,GK,30,3,0,AS FAR,False
+Morocco,Bilal El Khannouss,MF,22,37,3,VfB Stuttgart,False
+Morocco,Neil El Aynaoui,MF,24,16,2,Roma,False
+Morocco,Redouane Halhal,DF,23,3,0,Mechelen,False
+Morocco,Anass Salah-Eddine,DF,24,9,0,PSV Eindhoven,False
+Scotland,Angus Gunn,GK,30,22,0,Nottingham Forest,False
+Scotland,Aaron Hickey,DF,24,21,0,Brentford,False
+Scotland,Andy Robertson,DF,32,94,4,Liverpool,True
+Scotland,Scott McTominay,MF,29,70,15,Napoli,False
+Scotland,Grant Hanley,DF,34,68,2,Hibernian,False
+Scotland,Kieran Tierney,DF,29,56,2,Celtic,False
+Scotland,John McGinn,MF,31,86,20,Aston Villa,False
+Scotland,Tyler Fletcher,MF,19,2,0,Manchester United,False
+Scotland,Lyndon Dykes,FW,30,51,10,Charlton Athletic,False
+Scotland,Ché Adams,FW,29,47,13,Torino,False
+Scotland,Ryan Christie,MF,31,68,10,Bournemouth,False
+Scotland,Liam Kelly,GK,30,3,0,Rangers,False
+Scotland,Jack Hendry,DF,31,38,3,Al-Ettifaq,False
+Scotland,Ross Stewart,FW,29,3,0,Southampton,False
+Scotland,John Souttar,DF,29,24,2,Rangers,False
+Scotland,Dominic Hyam,DF,30,4,0,Wrexham,False
+Scotland,Ben Gannon-Doak,FW,20,14,1,Bournemouth,False
+Scotland,George Hirst,FW,27,10,1,Ipswich Town,False
+Scotland,Lewis Ferguson,MF,26,24,1,Bologna,False
+Scotland,Lawrence Shankland,FW,30,20,7,Heart of Midlothian,False
+Scotland,Craig Gordon,GK,43,84,0,Heart of Midlothian,False
+Scotland,Nathan Patterson,DF,24,26,1,Everton,False
+Scotland,Kenny McLean,MF,34,58,3,Norwich City,False
+Scotland,Anthony Ralston,DF,27,27,1,Celtic,False
+Scotland,Findlay Curtis,FW,20,3,1,Kilmarnock,False
+Scotland,Scott McKenna,DF,29,50,1,Dinamo Zagreb,False
+Australia,Mathew Ryan,GK,34,104,0,Levante,True
+Australia,Miloš Degenek,DF,32,57,1,APOEL,False
+Australia,Alessandro Circati,DF,22,13,1,Parma,False
+Australia,Jacob Italiano,DF,24,5,0,Grazer AK,False
+Australia,Jordan Bos,DF,23,27,4,Feyenoord,False
+Australia,Jason Geria,DF,33,14,0,Albirex Niigata,False
+Australia,Mathew Leckie,FW,35,80,14,Melbourne City,False
+Australia,Connor Metcalfe,MF,26,36,1,FC St. Pauli,False
+Australia,Mohamed Touré,FW,22,10,2,Norwich City,False
+Australia,Ajdin Hrustic,FW,29,37,4,Heracles Almelo,False
+Australia,Awer Mabil,FW,30,38,10,Castellón,False
+Australia,Paul Izzo,GK,31,4,0,Randers,False
+Australia,Aiden O'Neill,MF,27,31,0,New York City FC,False
+Australia,Cammy Devlin,MF,28,5,0,Heart of Midlothian,False
+Australia,Kai Trewin,DF,25,6,0,New York City FC,False
+Australia,Aziz Behich,DF,35,84,3,Melbourne City,False
+Australia,Nestory Irankunda,FW,20,15,5,Watford,False
+Australia,Patrick Beach,GK,22,2,0,Melbourne City,False
+Australia,Harry Souttar,DF,27,38,11,Leicester City,False
+Australia,Cristian Volpato,FW,22,1,0,Sassuolo,False
+Australia,Cameron Burgess,DF,30,27,0,Swansea City,False
+Australia,Jackson Irvine,MF,33,82,14,FC St. Pauli,False
+Australia,Nishan Velupillay,FW,25,7,3,Melbourne Victory,False
+Australia,Paul Okon-Engstler,MF,21,6,0,Sydney FC,False
+Australia,Lucas Herrington,DF,18,4,0,Colorado Rapids,False
+Australia,Tete Yengi,FW,25,1,1,Machida Zelvia,False
+Paraguay,Gatito Fernández,GK,38,31,0,Cerro Porteño,False
+Paraguay,Gustavo Velázquez,DF,35,13,1,Cerro Porteño,False
+Paraguay,Omar Alderete,DF,29,36,3,Sunderland,False
+Paraguay,Juan José Cáceres,DF,26,17,0,Dynamo Moscow,False
+Paraguay,Fabián Balbuena,DF,34,48,2,Grêmio,False
+Paraguay,Júnior Alonso,DF,33,71,3,Atlético Mineiro,False
+Paraguay,Ramón Sosa,MF,26,29,1,Palmeiras,False
+Paraguay,Diego Gómez,MF,23,24,3,Brighton & Hove Albion,False
+Paraguay,Antonio Sanabria,FW,30,48,7,Cremonese,False
+Paraguay,Miguel Almirón,MF,32,76,10,Atlanta United FC,False
+Paraguay,Maurício,MF,24,3,0,Palmeiras,False
+Paraguay,Orlando Gill,GK,26,6,0,San Lorenzo,False
+Paraguay,José Canale,DF,29,2,0,Lanús,False
+Paraguay,Andrés Cubas,MF,30,33,0,Vancouver Whitecaps FC,False
+Paraguay,Gustavo Gómez,DF,33,89,4,Palmeiras,True
+Paraguay,Damián Bobadilla,MF,24,19,1,São Paulo,False
+Paraguay,Kaku,FW,31,33,6,Al Ain,False
+Paraguay,Álex Arce,FW,30,15,1,Independiente Rivadavia,False
+Paraguay,Julio Enciso,FW,22,32,4,Strasbourg,False
+Paraguay,Braian Ojeda,MF,25,17,0,Orlando City SC,False
+Paraguay,Gabriel Ávalos,FW,35,23,2,Independiente,False
+Paraguay,Gastón Olveira,GK,33,1,0,Olimpia,False
+Paraguay,Matías Galarza,MF,24,15,3,Atlanta United FC,False
+Paraguay,Gustavo Caballero,MF,24,2,1,Portsmouth,False
+Paraguay,Isidro Pitta,FW,26,5,0,Red Bull Bragantino,False
+Paraguay,Alexandro Maidana,DF,20,2,1,Talleres,False
+Turkey,Mert Günok,GK,37,37,0,Fenerbahçe,False
+Turkey,Zeki Çelik,DF,29,61,3,Roma,False
+Turkey,Merih Demiral,DF,28,62,6,Al-Ahli,False
+Turkey,Çağlar Söyüncü,DF,30,60,2,Fenerbahçe,False
+Turkey,Salih Özcan,MF,28,30,1,Borussia Dortmund,False
+Turkey,Orkun Kökçü,MF,25,50,4,Beşiktaş,False
+Turkey,Kerem Aktürkoğlu,FW,27,52,15,Fenerbahçe,False
+Turkey,Arda Güler,FW,21,29,6,Real Madrid,False
+Turkey,Deniz Gül,FW,21,8,2,Porto,False
+Turkey,Hakan Çalhanoğlu,MF,32,105,22,Inter Milan,True
+Turkey,Kenan Yıldız,FW,21,28,5,Juventus,False
+Turkey,Altay Bayındır,GK,28,12,0,Manchester United,False
+Turkey,Eren Elmalı,DF,25,23,0,Galatasaray,False
+Turkey,Abdülkerim Bardakcı,DF,31,27,2,Galatasaray,False
+Turkey,Ozan Kabak,DF,26,30,2,TSG Hoffenheim,False
+Turkey,İsmail Yüksek,MF,27,32,1,Fenerbahçe,False
+Turkey,İrfan Can Kahveci,FW,30,47,6,Kasımpaşa,False
+Turkey,Mert Müldür,DF,27,45,3,Fenerbahçe,False
+Turkey,Yunus Akgün,FW,25,19,4,Galatasaray,False
+Turkey,Ferdi Kadıoğlu,DF,26,30,2,Brighton & Hove Albion,False
+Turkey,Barış Alper Yılmaz,FW,26,35,4,Galatasaray,False
+Turkey,Kaan Ayhan,MF,31,73,5,Galatasaray,False
+Turkey,Uğurcan Çakır,GK,30,39,0,Galatasaray,False
+Turkey,Oğuz Aydın,FW,25,11,0,Fenerbahçe,False
+Turkey,Samet Akaydin,DF,32,19,1,Çaykur Rizespor,False
+Turkey,Can Uzun,FW,20,6,1,Eintracht Frankfurt,False
+United States,Matt Turner,GK,31,54,0,New England Revolution,False
+United States,Sergiño Dest,DF,25,39,3,PSV Eindhoven,False
+United States,Chris Richards,DF,26,36,3,Crystal Palace,False
+United States,Tyler Adams,MF,27,54,2,Bournemouth,False
+United States,Antonee Robinson,DF,28,54,5,Fulham,False
+United States,Auston Trusty,DF,27,8,0,Celtic,False
+United States,Giovanni Reyna,MF,23,38,9,Borussia Mönchengladbach,False
+United States,Weston McKennie,MF,27,66,12,Juventus,False
+United States,Ricardo Pepi,FW,23,37,13,PSV Eindhoven,False
+United States,Christian Pulisic,FW,27,86,33,Milan,False
+United States,Brenden Aaronson,FW,25,58,9,Leeds United,False
+United States,Miles Robinson,DF,29,40,3,FC Cincinnati,False
+United States,Tim Ream,DF,38,82,1,Charlotte FC,True
+United States,Sebastian Berhalter,MF,25,13,1,Vancouver Whitecaps FC,False
+United States,Cristian Roldan,MF,31,47,0,Seattle Sounders FC,False
+United States,Alex Freeman,DF,21,17,2,Villarreal,False
+United States,Malik Tillman,MF,24,30,3,Bayer Leverkusen,False
+United States,Max Arfsten,DF,25,20,1,Columbus Crew,False
+United States,Haji Wright,FW,28,20,7,Coventry City,False
+United States,Folarin Balogun,FW,24,27,9,Monaco,False
+United States,Timothy Weah,FW,26,51,7,Marseille,False
+United States,Mark McKenzie,DF,27,29,0,Toulouse,False
+United States,Joe Scally,DF,23,26,0,Borussia Mönchengladbach,False
+United States,Matt Freese,GK,27,15,0,New York City FC,False
+United States,Chris Brady,GK,22,1,0,Chicago Fire FC,False
+United States,Alejandro Zendejas,FW,28,14,2,América,False
+Curacao,Eloy Room,GK,37,71,0,Miami FC,False
+Curacao,Shurandy Sambo,DF,24,8,0,Sparta Rotterdam,False
+Curacao,Juriën Gaari,DF,32,60,1,Abha,False
+Curacao,Roshon van Eijma,DF,28,28,1,RKC Waalwijk,False
+Curacao,Sherel Floranus,DF,27,28,0,PEC Zwolle,False
+Curacao,Godfried Roemeratoe,MF,26,28,1,RKC Waalwijk,False
+Curacao,Juninho Bacuna,MF,28,49,15,Volendam,False
+Curacao,Livano Comenencia,MF,22,20,2,Zürich,False
+Curacao,Jürgen Locadia,FW,32,13,1,Miami FC,False
+Curacao,Leandro Bacuna,MF,34,72,16,Iğdır,True
+Curacao,Jeremy Antonisse,FW,24,27,4,Kifisia,False
+Curacao,Sontje Hansen,FW,24,6,1,Middlesbrough,False
+Curacao,Tyrese Noslin,FW,23,7,1,Telstar,False
+Curacao,Kenji Gorré,FW,31,38,6,Maccabi Haifa,False
+Curacao,Ar'jany Martha,MF,22,9,2,Rotherham United,False
+Curacao,Jearl Margaritha,FW,26,22,5,Beveren,False
+Curacao,Brandley Kuwas,FW,33,35,2,Volendam,False
+Curacao,Armando Obispo,DF,27,6,0,PSV Eindhoven,False
+Curacao,Gervane Kastaneer,FW,30,29,9,Terengganu,False
+Curacao,Joshua Brenet,DF,32,18,2,Kayserispor,False
+Curacao,Tahith Chong,MF,26,6,3,Sheffield United,False
+Curacao,Kevin Felida,MF,26,19,1,Den Bosch,False
+Curacao,Riechedly Bazoer,DF,29,5,0,Konyaspor,False
+Curacao,Deveron Fonville,DF,23,2,0,NEC,False
+Curacao,Tyrick Bodak,GK,24,4,0,Telstar,False
+Curacao,Trevor Doornbusch,GK,26,8,0,VVV-Venlo,False
+Ecuador,Hernán Galíndez,GK,39,35,0,Huracán,False
+Ecuador,Félix Torres,DF,29,49,5,Internacional,False
+Ecuador,Piero Hincapié,DF,24,52,3,Arsenal,False
+Ecuador,Joel Ordóñez,DF,22,17,0,Club Brugge,False
+Ecuador,Jordy Alcívar,MF,26,11,1,Independiente del Valle,False
+Ecuador,Willian Pacho,DF,24,34,2,Paris Saint-Germain,False
+Ecuador,Pervis Estupiñán,DF,28,54,5,Milan,False
+Ecuador,Anthony Valencia,MF,22,3,1,Antwerp,False
+Ecuador,John Yeboah,FW,25,23,3,Venezia,False
+Ecuador,Kendry Páez,MF,19,26,2,River Plate,False
+Ecuador,Kevin Rodríguez,FW,26,31,2,Union Saint-Gilloise,False
+Ecuador,Moisés Ramírez,GK,25,7,0,Kifisia,False
+Ecuador,Enner Valencia,FW,36,105,49,Pachuca,True
+Ecuador,Alan Minda,MF,23,20,2,Atlético Mineiro,False
+Ecuador,Pedro Vite,MF,24,17,1,UNAM,False
+Ecuador,Jordy Caicedo,FW,28,20,4,Huracán,False
+Ecuador,Ángelo Preciado,DF,28,55,0,Atlético Mineiro,False
+Ecuador,Denil Castillo,MF,22,5,0,Midtjylland,False
+Ecuador,Gonzalo Plata,FW,25,50,8,Flamengo,False
+Ecuador,Nilson Angulo,FW,22,14,2,Sunderland,False
+Ecuador,Alan Franco,MF,27,58,1,Atlético Mineiro,False
+Ecuador,Gonzalo Valle,GK,30,4,0,LDU Quito,False
+Ecuador,Moisés Caicedo,MF,24,61,3,Chelsea,False
+Ecuador,Jeremy Arévalo,FW,21,4,0,VfB Stuttgart,False
+Ecuador,Jackson Porozo,DF,25,10,1,Tijuana,False
+Ecuador,Yaimar Medina,DF,21,6,0,Genk,False
+Germany,Manuel Neuer,GK,40,124,0,Bayern Munich,False
+Germany,Antonio Rüdiger,DF,33,82,3,Real Madrid,False
+Germany,Waldemar Anton,DF,29,13,0,Borussia Dortmund,False
+Germany,Jonathan Tah,DF,30,47,1,Bayern Munich,False
+Germany,Aleksandar Pavlović,MF,22,11,1,Bayern Munich,False
+Germany,Joshua Kimmich,DF,31,110,10,Bayern Munich,True
+Germany,Kai Havertz,FW,27,58,22,Arsenal,False
+Germany,Leon Goretzka,MF,31,70,15,Bayern Munich,False
+Germany,Jamie Leweling,MF,25,5,1,VfB Stuttgart,False
+Germany,Jamal Musiala,MF,23,42,9,Bayern Munich,False
+Germany,Nick Woltemade,FW,24,11,4,Newcastle United,False
+Germany,Oliver Baumann,GK,36,13,0,TSG Hoffenheim,False
+Germany,Pascal Groß,MF,34,18,1,Brighton & Hove Albion,False
+Germany,Maximilian Beier,FW,23,9,0,Borussia Dortmund,False
+Germany,Nico Schlotterbeck,DF,26,27,0,Borussia Dortmund,False
+Germany,Angelo Stiller,MF,25,8,0,VfB Stuttgart,False
+Germany,Florian Wirtz,MF,23,41,11,Liverpool,False
+Germany,Nathaniel Brown,DF,22,5,0,Eintracht Frankfurt,False
+Germany,Leroy Sané,MF,30,76,17,Galatasaray,False
+Germany,Nadiem Amiri,MF,29,11,1,Mainz 05,False
+Germany,Alexander Nübel,GK,29,3,0,VfB Stuttgart,False
+Germany,David Raum,DF,28,37,1,RB Leipzig,False
+Germany,Felix Nmecha,MF,25,8,1,Borussia Dortmund,False
+Germany,Malick Thiaw,DF,24,5,0,Newcastle United,False
+Germany,Assan Ouédraogo,MF,20,1,1,RB Leipzig,False
+Germany,Deniz Undav,FW,29,9,6,VfB Stuttgart,False
+Ivory Coast,Yahia Fofana,GK,25,35,0,Çaykur Rizespor,False
+Ivory Coast,Ousmane Diomande,DF,22,15,1,Sporting CP,False
+Ivory Coast,Ghislain Konan,DF,30,54,0,Gil Vicente,False
+Ivory Coast,Jean Michaël Seri,MF,34,65,4,Maribor,False
+Ivory Coast,Wilfried Singo,DF,25,34,1,Galatasaray,False
+Ivory Coast,Seko Fofana,MF,31,32,7,Porto,False
+Ivory Coast,Odilon Kossounou,DF,25,35,0,Atalanta,False
+Ivory Coast,Franck Kessié,MF,29,103,15,Al-Ahli,True
+Ivory Coast,Ange-Yoan Bonny,FW,22,1,0,Inter Milan,False
+Ivory Coast,Simon Adingra,FW,24,29,5,Monaco,False
+Ivory Coast,Yan Diomande,FW,19,10,3,RB Leipzig,False
+Ivory Coast,Elye Wahi,FW,23,2,0,Nice,False
+Ivory Coast,Christopher Opéri,DF,29,12,0,İstanbul Başakşehir,False
+Ivory Coast,Oumar Diakité,FW,22,29,6,Cercle Brugge,False
+Ivory Coast,Amad Diallo,FW,23,19,6,Manchester United,False
+Ivory Coast,Mohamed Koné,GK,24,0,0,Charleroi,False
+Ivory Coast,Guéla Doué,DF,23,20,3,Strasbourg,False
+Ivory Coast,Ibrahim Sangaré,MF,28,58,12,Nottingham Forest,False
+Ivory Coast,Nicolas Pépé,FW,31,55,12,Villarreal,False
+Ivory Coast,Emmanuel Agbadou,DF,28,20,2,Beşiktaş,False
+Ivory Coast,Evan Ndicka,DF,26,28,0,Roma,False
+Ivory Coast,Evann Guessand,FW,24,21,4,Crystal Palace,False
+Ivory Coast,Alban Lafont,GK,27,4,0,Panathinaikos,False
+Ivory Coast,Bazoumana Touré,FW,20,6,2,TSG Hoffenheim,False
+Ivory Coast,Parfait Guiagon,MF,25,5,0,Charleroi,False
+Ivory Coast,Christ Inao Oulaï,MF,20,9,0,Trabzonspor,False
+Japan,Zion Suzuki,GK,23,24,0,Parma,False
+Japan,Yukinari Sugawara,DF,25,21,2,Werder Bremen,False
+Japan,Shōgo Taniguchi,DF,34,38,1,Sint-Truiden,False
+Japan,Kō Itakura,DF,29,40,2,Ajax,False
+Japan,Yūto Nagatomo,DF,39,145,4,FC Tokyo,False
+Japan,Wataru Endo,MF,33,73,4,Liverpool,True
+Japan,Ao Tanaka,MF,27,38,8,Leeds United,False
+Japan,Takefusa Kubo,MF,25,49,7,Real Sociedad,False
+Japan,Keisuke Gotō,FW,21,4,0,Sint-Truiden,False
+Japan,Ritsu Dōan,MF,27,65,11,Eintracht Frankfurt,False
+Japan,Daizen Maeda,MF,28,27,4,Celtic,False
+Japan,Keisuke Ōsako,GK,26,11,0,Sanfrecce Hiroshima,False
+Japan,Keito Nakamura,MF,25,25,10,Reims,False
+Japan,Junya Itō,MF,33,69,15,Genk,False
+Japan,Daichi Kamada,MF,29,49,12,Crystal Palace,False
+Japan,Tsuyoshi Watanabe,DF,29,11,0,Feyenoord,False
+Japan,Yuito Suzuki,MF,24,6,0,SC Freiburg,False
+Japan,Ayase Ueda,FW,27,39,16,Feyenoord,False
+Japan,Kōki Ogawa,FW,28,15,11,NEC,False
+Japan,Ayumu Seko,DF,26,14,0,Le Havre,False
+Japan,Hiroki Itō,DF,27,24,1,Bayern Munich,False
+Japan,Takehiro Tomiyasu,DF,27,43,1,Ajax,False
+Japan,Tomoki Hayakawa,GK,27,4,0,Kashima Antlers,False
+Japan,Kaishū Sano,MF,25,13,0,Mainz 05,False
+Japan,Junnosuke Suzuki,DF,22,6,0,Copenhagen,False
+Japan,Kento Shiogai,FW,21,2,0,VfL Wolfsburg,False
+Netherlands,Bart Verbruggen,GK,23,29,0,Brighton & Hove Albion,False
+Netherlands,Lutsharel Geertruida,DF,25,21,0,Sunderland,False
+Netherlands,Marten de Roon,MF,35,43,1,Atalanta,False
+Netherlands,Virgil van Dijk,DF,34,92,12,Liverpool,True
+Netherlands,Nathan Aké,DF,31,59,5,Manchester City,False
+Netherlands,Jan Paul van Hecke,DF,26,12,0,Brighton & Hove Albion,False
+Netherlands,Justin Kluivert,MF,27,12,0,Bournemouth,False
+Netherlands,Ryan Gravenberch,MF,24,27,1,Liverpool,False
+Netherlands,Wout Weghorst,FW,33,52,14,Ajax,False
+Netherlands,Memphis Depay,FW,32,109,55,Corinthians,False
+Netherlands,Cody Gakpo,FW,27,50,21,Liverpool,False
+Netherlands,Mats Wieffer,DF,26,15,1,Brighton & Hove Albion,False
+Netherlands,Robin Roefs,GK,23,1,0,Sunderland,False
+Netherlands,Tijjani Reijnders,MF,27,32,7,Manchester City,False
+Netherlands,Micky van de Ven,DF,25,21,1,Tottenham Hotspur,False
+Netherlands,Guus Til,MF,28,7,1,PSV Eindhoven,False
+Netherlands,Noa Lang,FW,26,15,3,Galatasaray,False
+Netherlands,Donyell Malen,FW,27,53,13,Roma,False
+Netherlands,Brian Brobbey,FW,24,12,1,Sunderland,False
+Netherlands,Teun Koopmeiners,MF,28,28,3,Juventus,False
+Netherlands,Frenkie de Jong,MF,29,66,2,Barcelona,False
+Netherlands,Denzel Dumfries,DF,30,72,11,Inter Milan,False
+Netherlands,Mark Flekken,GK,32,12,0,Bayer Leverkusen,False
+Netherlands,Crysencio Summerville,FW,24,2,0,West Ham United,False
+Netherlands,Jorrel Hato,DF,20,8,0,Chelsea,False
+Netherlands,Quinten Timber,MF,24,11,1,Marseille,False
+Sweden,Jacob Widell Zetterström,GK,27,3,0,Derby County,False
+Sweden,Gustaf Lagerbielke,DF,26,11,2,Braga,False
+Sweden,Victor Lindelöf,DF,31,76,3,Aston Villa,True
+Sweden,Isak Hien,DF,27,29,0,Atalanta,False
+Sweden,Gabriel Gudmundsson,DF,27,24,0,Leeds United,False
+Sweden,Herman Johansson,DF,28,3,0,FC Dallas,False
+Sweden,Lucas Bergvall,MF,20,10,0,Tottenham Hotspur,False
+Sweden,Daniel Svensson,DF,24,13,0,Borussia Dortmund,False
+Sweden,Alexander Isak,FW,26,58,17,Liverpool,False
+Sweden,Benjamin Nygren,MF,24,11,3,Celtic,False
+Sweden,Anthony Elanga,FW,24,30,6,Newcastle United,False
+Sweden,Viktor Johansson,GK,27,12,0,Stoke City,False
+Sweden,Ken Sema,MF,32,33,5,Pafos,False
+Sweden,Hjalmar Ekdal,DF,27,13,0,Burnley,False
+Sweden,Carl Starfelt,DF,31,18,0,Celta Vigo,False
+Sweden,Jesper Karlström,MF,30,25,0,Udinese,False
+Sweden,Viktor Gyökeres,FW,28,33,20,Arsenal,False
+Sweden,Yasin Ayari,MF,22,21,3,Brighton & Hove Albion,False
+Sweden,Mattias Svanberg,MF,27,41,2,VfL Wolfsburg,False
+Sweden,Eric Smith,DF,29,2,0,FC St. Pauli,False
+Sweden,Alexander Bernhardsson,DF,27,11,0,Holstein Kiel,False
+Sweden,Besfort Zeneli,MF,23,8,0,Union Saint-Gilloise,False
+Sweden,Kristoffer Nordfeldt,GK,36,21,0,AIK,False
+Sweden,Elliot Stroud,DF,23,1,0,Mjällby AIF,False
+Sweden,Gustaf Nilsson,FW,29,10,4,Club Brugge,False
+Sweden,Taha Ali,FW,27,2,0,Malmö FF,False
+Tunisia,Mouhib Chamakh,GK,24,2,0,Club Africain,False
+Tunisia,Ali Abdi,DF,32,46,7,Nice,False
+Tunisia,Montassar Talbi,DF,28,64,4,Lorient,False
+Tunisia,Omar Rekik,DF,24,6,0,Maribor,False
+Tunisia,Adem Arous,DF,21,2,0,Kasımpaşa,False
+Tunisia,Dylan Bronn,DF,30,52,2,Servette,False
+Tunisia,Elias Achouri,FW,27,30,4,Copenhagen,False
+Tunisia,Elias Saad,FW,26,15,4,Hannover 96,False
+Tunisia,Hazem Mastouri,FW,28,19,4,Dynamo Makhachkala,False
+Tunisia,Hannibal Mejbri,MF,23,45,1,Burnley,False
+Tunisia,Ismaël Gharbi,MF,22,17,2,FC Augsburg,False
+Tunisia,Mortadha Ben Ouanes,DF,31,18,0,Kasımpaşa,False
+Tunisia,Rani Khedira,MF,32,3,0,Union Berlin,False
+Tunisia,Khalil Ayari,MF,21,4,0,Paris Saint-Germain,False
+Tunisia,Hadj Mahmoud,MF,26,9,0,Lugano,False
+Tunisia,Aymen Dahmen,GK,29,37,0,CS Sfaxien,False
+Tunisia,Ellyes Skhiri,MF,31,83,4,Eintracht Frankfurt,True
+Tunisia,Rayan Elloumi,FW,18,4,0,Vancouver Whitecaps FC,False
+Tunisia,Firas Chaouat,FW,30,30,6,Club Africain,False
+Tunisia,Yan Valery,DF,27,22,0,Young Boys,False
+Tunisia,Mohamed Amine Ben Hamida,DF,30,13,0,Espérance de Tunis,False
+Tunisia,Sabri Ben Hessen,GK,29,2,0,Étoile du Sahel,False
+Tunisia,Moutaz Neffati,DF,21,5,0,IFK Norrköping,False
+Tunisia,Raed Chikhaoui,DF,22,0,0,US Monastir,False
+Tunisia,Anis Ben Slimane,MF,25,41,4,Norwich City,False
+Tunisia,Sebastian Tounekti,MF,23,12,1,Celtic,False
+Belgium,Thibaut Courtois,GK,34,109,0,Real Madrid,False
+Belgium,Zeno Debast,DF,22,26,1,Sporting CP,False
+Belgium,Arthur Theate,DF,26,33,1,Eintracht Frankfurt,False
+Belgium,Brandon Mechele,DF,33,9,1,Club Brugge,False
+Belgium,Maxim De Cuyper,DF,25,19,4,Brighton & Hove Albion,False
+Belgium,Axel Witsel,MF,37,138,12,Girona,False
+Belgium,Kevin De Bruyne,MF,34,119,37,Napoli,False
+Belgium,Youri Tielemans,MF,29,85,13,Aston Villa,True
+Belgium,Romelu Lukaku,FW,33,126,90,Napoli,False
+Belgium,Leandro Trossard,FW,31,51,12,Arsenal,False
+Belgium,Jérémy Doku,FW,24,43,7,Manchester City,False
+Belgium,Senne Lammens,GK,23,2,0,Manchester United,False
+Belgium,Mike Penders,GK,20,0,0,Strasbourg,False
+Belgium,Dodi Lukébakio,FW,28,30,6,Benfica,False
+Belgium,Thomas Meunier,DF,34,80,10,Lille,False
+Belgium,Koni De Winter,DF,23,8,0,Milan,False
+Belgium,Charles De Ketelaere,FW,25,30,6,Atalanta,False
+Belgium,Joaquin Seys,DF,21,5,0,Club Brugge,False
+Belgium,Diego Moreira,MF,21,3,0,Strasbourg,False
+Belgium,Hans Vanaken,MF,33,34,7,Club Brugge,False
+Belgium,Timothy Castagne,DF,30,63,2,Fulham,False
+Belgium,Alexis Saelemaekers,MF,26,24,2,Milan,False
+Belgium,Nicolas Raskin,MF,25,13,2,Rangers,False
+Belgium,Amadou Onana,MF,24,29,1,Aston Villa,False
+Belgium,Nathan Ngoy,DF,23,4,0,Lille,False
+Belgium,Matias Fernandez-Pardo,FW,21,2,0,Lille,False
+Egypt,Mohamed El Shenawy,GK,37,76,0,Al Ahly,False
+Egypt,Yasser Ibrahim,DF,33,17,1,Al Ahly,False
+Egypt,Mohamed Hany,DF,30,42,0,Al Ahly,False
+Egypt,Hossam Abdelmaguid,DF,25,13,0,Zamalek,False
+Egypt,Ramy Rabia,DF,33,44,5,Al Ain,False
+Egypt,Mohamed Abdelmonem,DF,27,36,3,Nice,False
+Egypt,Trézéguet,FW,31,96,23,Al Ahly,False
+Egypt,Emam Ashour,MF,28,29,0,Al Ahly,False
+Egypt,Hamza Abdelkarim,FW,18,2,0,Barcelona B,False
+Egypt,Mohamed Salah,FW,33,116,67,Liverpool,True
+Egypt,Mostafa Ziko,MF,29,2,2,Pyramids,False
+Egypt,Haissem Hassan,FW,24,4,0,Oviedo,False
+Egypt,Ahmed Fatouh,DF,28,39,1,Zamalek,False
+Egypt,Hamdy Fathy,MF,31,63,3,Al-Wakrah,False
+Egypt,Karim Hafez,DF,30,9,0,Pyramids,False
+Egypt,El Mahdy Soliman,GK,39,0,0,Zamalek,False
+Egypt,Mohanad Lasheen,MF,30,23,0,Pyramids,False
+Egypt,Nabil Emad,MF,30,12,0,Al-Najma,False
+Egypt,Marwan Attia,MF,27,34,1,Al Ahly,False
+Egypt,Ibrahim Adel,FW,25,24,3,Nordsjælland,False
+Egypt,Mahmoud Saber,MF,24,15,1,ZED,False
+Egypt,Omar Marmoush,FW,27,49,11,Manchester City,False
+Egypt,Mostafa Shobeir,GK,26,9,0,Al Ahly,False
+Egypt,Tarek Alaa,DF,24,3,0,ZED,False
+Egypt,Zizo,FW,30,63,5,Al Ahly,False
+Egypt,Mohamed Alaa,GK,27,0,0,El Gouna,False
+Iran,Alireza Beiranvand,GK,33,86,0,Tractor,False
+Iran,Saleh Hardani,DF,27,18,1,Esteghlal,False
+Iran,Ehsan Hajsafi,DF,36,146,7,Sepahan,True
+Iran,Shojae Khalilzadeh,DF,37,58,2,Tractor,False
+Iran,Milad Mohammadi,DF,32,76,1,Persepolis,False
+Iran,Saeid Ezatolahi,MF,29,83,2,Shabab Al Ahli,False
+Iran,Alireza Jahanbakhsh,MF,32,98,17,Dender,False
+Iran,Mohammad Mohebi,MF,27,36,14,Rostov,False
+Iran,Mehdi Taremi,FW,33,105,60,Olympiacos,False
+Iran,Mehdi Ghayedi,FW,27,30,10,Al Nasr,False
+Iran,Ali Alipour,FW,30,14,1,Persepolis,False
+Iran,Payam Niazmand,GK,31,15,0,Persepolis,False
+Iran,Hossein Kanaanizadegan,DF,32,65,6,Persepolis,False
+Iran,Saman Ghoddos,MF,32,68,3,Kalba,False
+Iran,Rouzbeh Cheshmi,MF,32,40,3,Esteghlal,False
+Iran,Mehdi Torabi,MF,31,52,7,Tractor,False
+Iran,Aria Yousefi,DF,24,14,1,Sepahan,False
+Iran,Amirhossein Hosseinzadeh,FW,25,18,5,Tractor,False
+Iran,Ali Nemati,DF,30,17,0,Foolad,False
+Iran,Shahriyar Moghanlou,FW,31,21,2,Kalba,False
+Iran,Mohammad Ghorbani,MF,24,16,0,Al Wahda,False
+Iran,Hossein Hosseini,GK,33,13,0,Sepahan,False
+Iran,Ramin Rezaeian,DF,36,74,8,Foolad,False
+Iran,Dennis Eckert,FW,29,0,0,Standard Liège,False
+Iran,Danial Eiri,DF,22,0,0,Malavan,False
+Iran,Amirmohammad Razzaghinia,MF,20,4,0,Esteghlal,False
+New Zealand,Max Crocombe,GK,32,24,0,Millwall,False
+New Zealand,Tim Payne,DF,32,51,3,Wellington Phoenix,False
+New Zealand,Francis de Vries,DF,31,20,1,Auckland FC,False
+New Zealand,Tyler Bindon,DF,21,25,3,Sheffield United,False
+New Zealand,Michael Boxall,DF,37,63,1,Minnesota United FC,False
+New Zealand,Joe Bell,MF,27,32,1,Viking,False
+New Zealand,Matthew Garbett,MF,24,37,5,Peterborough United,False
+New Zealand,Marko Stamenić,MF,24,39,3,Swansea City,False
+New Zealand,Chris Wood,FW,34,90,45,Nottingham Forest,True
+New Zealand,Sarpreet Singh,MF,27,28,3,Wellington Phoenix,False
+New Zealand,Elijah Just,MF,26,44,9,Motherwell,False
+New Zealand,Alex Paulsen,GK,23,8,0,Lechia Gdańsk,False
+New Zealand,Liberato Cacace,DF,25,37,1,Wrexham,False
+New Zealand,Alex Rufer,MF,29,26,0,Wellington Phoenix,False
+New Zealand,Nando Pijnaker,DF,27,25,0,Auckland FC,False
+New Zealand,Finn Surman,DF,22,19,2,Portland Timbers,False
+New Zealand,Kosta Barbarouses,FW,36,76,10,Western Sydney Wanderers,False
+New Zealand,Ben Waine,FW,25,31,9,Port Vale,False
+New Zealand,Ben Old,MF,23,24,2,Saint-Étienne,False
+New Zealand,Callum McCowatt,MF,27,32,4,Silkeborg,False
+New Zealand,Jesse Randall,FW,23,11,2,Auckland FC,False
+New Zealand,Michael Woud,GK,27,6,0,Auckland FC,False
+New Zealand,Ryan Thomas,MF,31,25,3,PEC Zwolle,False
+New Zealand,Callan Elliot,DF,26,11,0,Auckland FC,False
+New Zealand,Lachlan Bayliss,MF,23,4,0,Newcastle Jets,False
+New Zealand,Tommy Smith,DF,36,56,2,Braintree Town,False
+Cape Verde,Vozinha,GK,40,86,0,Chaves,False
+Cape Verde,Stopira,DF,38,62,4,Torreense,False
+Cape Verde,Diney,DF,31,30,2,Al Bataeh,False
+Cape Verde,Roberto Lopes,DF,33,45,0,Shamrock Rovers,False
+Cape Verde,Logan Costa,DF,25,28,0,Villarreal,False
+Cape Verde,Kevin Pina,MF,29,31,3,Krasnodar,False
+Cape Verde,Jovane Cabral,MF,27,27,2,Estrela Amadora,False
+Cape Verde,João Paulo,MF,28,42,1,FCSB,False
+Cape Verde,Gilson Benchimol,FW,24,22,6,Akron Tolyatti,False
+Cape Verde,Jamiro Monteiro,MF,32,55,5,PEC Zwolle,False
+Cape Verde,Garry Rodrigues,MF,35,60,10,Apollon Limassol,False
+Cape Verde,Márcio Rosa,GK,29,11,0,Montana,False
+Cape Verde,Sidny Lopes Cabral,DF,23,9,3,Benfica,False
+Cape Verde,Deroy Duarte,MF,26,30,0,Ludogorets Razgrad,False
+Cape Verde,Laros Duarte,MF,29,13,1,Puskás Akadémia,False
+Cape Verde,Yannick Semedo,MF,30,10,1,Farense,False
+Cape Verde,Willy Semedo,MF,32,38,3,Omonia,False
+Cape Verde,Telmo Arcanjo,MF,24,16,1,Vitória de Guimarães,False
+Cape Verde,Dailon Livramento,FW,25,22,7,Casa Pia,False
+Cape Verde,Ryan Mendes,FW,36,98,22,Iğdır,True
+Cape Verde,Nuno da Costa,MF,35,9,2,İstanbul Başakşehir,False
+Cape Verde,Steven Moreira,DF,31,20,0,Columbus Crew,False
+Cape Verde,CJ dos Santos,GK,25,1,0,San Diego FC,False
+Cape Verde,Wagner Pina,DF,23,13,0,Trabzonspor,False
+Cape Verde,Kelvin Pires,DF,26,5,1,SJK,False
+Cape Verde,Hélio Varela,MF,24,20,0,Maccabi Tel Aviv,False
+Saudi Arabia,Nawaf Al-Aqidi,GK,26,22,0,Al-Nassr,False
+Saudi Arabia,Ali Majrashi,DF,26,21,0,Al-Ahli,False
+Saudi Arabia,Ali Lajami,DF,30,21,1,Al-Hilal,False
+Saudi Arabia,Abdulelah Al-Amri,DF,29,42,1,Al-Nassr,False
+Saudi Arabia,Hassan Al-Tambakti,DF,27,51,1,Al-Hilal,False
+Saudi Arabia,Nasser Al-Dawsari,MF,27,43,0,Al-Hilal,False
+Saudi Arabia,Musab Al-Juwayr,MF,22,34,6,Al-Qadsiah,False
+Saudi Arabia,Ayman Yahya,FW,25,26,0,Al-Nassr,False
+Saudi Arabia,Firas Al-Buraikan,FW,26,69,15,Al-Ahli,False
+Saudi Arabia,Salem Al-Dawsari,FW,34,109,27,Al-Hilal,True
+Saudi Arabia,Saleh Al-Shehri,FW,32,55,18,Al-Ittihad,False
+Saudi Arabia,Saud Abdulhamid,DF,26,54,1,Lens,False
+Saudi Arabia,Nawaf Boushal,DF,26,24,0,Al-Nassr,False
+Saudi Arabia,Hassan Kadesh,DF,33,20,2,Al-Ittihad,False
+Saudi Arabia,Abdullah Al-Khaibari,MF,29,39,0,Al-Nassr,False
+Saudi Arabia,Ziyad Al-Johani,MF,24,12,0,Al-Ahli,False
+Saudi Arabia,Khalid Al-Ghannam,FW,25,6,0,Al-Ettifaq,False
+Saudi Arabia,Alaa Al-Hejji,MF,30,2,0,Neom,False
+Saudi Arabia,Abdullah Al-Hamdan,FW,26,49,12,Al-Nassr,False
+Saudi Arabia,Sultan Mandash,FW,31,6,2,Al-Hilal,False
+Saudi Arabia,Mohammed Al-Owais,GK,34,63,0,Al-Ula,False
+Saudi Arabia,Ahmed Al-Kassar,GK,35,9,0,Al-Qadsiah,False
+Saudi Arabia,Mohamed Kanno,MF,31,76,8,Al-Hilal,False
+Saudi Arabia,Moteb Al-Harbi,DF,26,12,0,Al-Hilal,False
+Saudi Arabia,Jehad Thakri,DF,24,7,0,Al-Qadsiah,False
+Saudi Arabia,Mohammed Abu Al-Shamat,DF,23,6,0,Al-Qadsiah,False
+Spain,David Raya,GK,30,13,0,Arsenal,False
+Spain,Marc Pubill,DF,22,2,0,Atlético Madrid,False
+Spain,Álex Grimaldo,DF,30,14,0,Bayer Leverkusen,False
+Spain,Eric García,DF,25,21,0,Barcelona,False
+Spain,Marcos Llorente,DF,31,24,0,Atlético Madrid,False
+Spain,Mikel Merino,MF,29,43,10,Arsenal,False
+Spain,Ferran Torres,FW,26,57,24,Barcelona,False
+Spain,Fabián Ruiz,MF,30,42,6,Paris Saint-Germain,False
+Spain,Gavi,MF,21,30,5,Barcelona,False
+Spain,Dani Olmo,FW,28,50,12,Barcelona,False
+Spain,Yéremy Pino,FW,23,23,4,Crystal Palace,False
+Spain,Pedro Porro,DF,26,18,0,Tottenham Hotspur,False
+Spain,Joan Garcia,GK,25,2,0,Barcelona,False
+Spain,Aymeric Laporte,DF,32,46,2,Athletic Bilbao,False
+Spain,Álex Baena,MF,24,17,2,Atlético Madrid,False
+Spain,Rodri,MF,29,62,4,Manchester City,True
+Spain,Nico Williams,FW,23,30,6,Athletic Bilbao,False
+Spain,Martín Zubimendi,MF,27,26,3,Arsenal,False
+Spain,Lamine Yamal,FW,18,25,6,Barcelona,False
+Spain,Pedri,MF,23,41,6,Barcelona,False
+Spain,Mikel Oyarzabal,FW,29,53,25,Real Sociedad,False
+Spain,Pau Cubarsí,DF,19,12,0,Barcelona,False
+Spain,Unai Simón,GK,29,58,0,Athletic Bilbao,False
+Spain,Marc Cucurella,DF,27,24,1,Chelsea,False
+Spain,Víctor Muñoz,FW,22,2,1,Osasuna,False
+Spain,Borja Iglesias,FW,33,8,0,Celta Vigo,False
+Uruguay,Sergio Rochet,GK,33,35,0,Internacional,False
+Uruguay,José Giménez,DF,31,99,8,Atlético Madrid,True
+Uruguay,Sebastián Cáceres,DF,26,24,0,América,False
+Uruguay,Ronald Araújo,DF,27,27,1,Barcelona,False
+Uruguay,Manuel Ugarte,MF,25,36,1,Manchester United,False
+Uruguay,Rodrigo Bentancur,MF,28,74,3,Tottenham Hotspur,False
+Uruguay,Nicolás de la Cruz,MF,29,34,5,Flamengo,False
+Uruguay,Federico Valverde,MF,27,73,9,Real Madrid,False
+Uruguay,Darwin Núñez,FW,26,38,13,Al-Hilal,False
+Uruguay,Giorgian de Arrascaeta,MF,32,60,13,Flamengo,False
+Uruguay,Facundo Pellistri,FW,24,39,2,Panathinaikos,False
+Uruguay,Santiago Mele,GK,28,8,0,Monterrey,False
+Uruguay,Guillermo Varela,DF,33,28,0,Flamengo,False
+Uruguay,Agustín Canobbio,MF,27,15,1,Fluminense,False
+Uruguay,Emiliano Martínez,MF,26,10,0,Palmeiras,False
+Uruguay,Mathías Olivera,DF,28,35,2,Napoli,False
+Uruguay,Matías Viña,DF,28,43,1,River Plate,False
+Uruguay,Brian Rodríguez,FW,26,32,4,América,False
+Uruguay,Rodrigo Aguirre,FW,31,10,3,UANL,False
+Uruguay,Maximiliano Araújo,MF,26,28,3,Sporting CP,False
+Uruguay,Federico Viñas,FW,27,11,2,Oviedo,False
+Uruguay,Joaquín Piquerez,MF,27,19,0,Palmeiras,False
+Uruguay,Fernando Muslera,GK,39,134,0,Estudiantes,False
+Uruguay,Santiago Bueno,DF,27,8,0,Wolverhampton Wanderers,False
+Uruguay,Juan Manuel Sanabria,MF,26,5,1,Real Salt Lake,False
+Uruguay,Rodrigo Zalazar,MF,26,8,2,Braga,False
+France,Brice Samba,GK,32,4,0,Rennes,False
+France,Malo Gusto,DF,23,11,0,Chelsea,False
+France,Lucas Digne,DF,32,58,0,Aston Villa,False
+France,Dayot Upamecano,DF,27,38,2,Bayern Munich,False
+France,Jules Koundé,DF,27,48,0,Barcelona,False
+France,Manu Koné,MF,25,14,0,Roma,False
+France,Ousmane Dembélé,FW,29,59,7,Paris Saint-Germain,False
+France,Aurélien Tchouaméni,MF,26,46,3,Real Madrid,False
+France,Marcus Thuram,FW,28,34,3,Inter Milan,False
+France,Kylian Mbappé,FW,27,98,56,Real Madrid,True
+France,Michael Olise,FW,24,17,7,Bayern Munich,False
+France,Bradley Barcola,FW,23,20,3,Paris Saint-Germain,False
+France,N'Golo Kanté,MF,35,69,2,Fenerbahçe,False
+France,Adrien Rabiot,MF,31,59,7,Milan,False
+France,Ibrahima Konaté,DF,27,28,0,Liverpool,False
+France,Mike Maignan,GK,30,40,0,Milan,False
+France,William Saliba,DF,25,32,0,Arsenal,False
+France,Warren Zaïre-Emery,MF,20,11,1,Paris Saint-Germain,False
+France,Théo Hernandez,DF,28,44,2,Al-Hilal,False
+France,Désiré Doué,FW,21,7,2,Paris Saint-Germain,False
+France,Lucas Hernandez,DF,30,42,0,Paris Saint-Germain,False
+France,Jean-Philippe Mateta,FW,28,4,2,Crystal Palace,False
+France,Robin Risser,GK,21,0,0,Lens,False
+France,Rayan Cherki,MF,22,7,2,Manchester City,False
+France,Maghnes Akliouche,MF,24,9,1,Monaco,False
+France,Maxence Lacroix,DF,26,4,0,Crystal Palace,False
+Iraq,Fahad Talib,GK,31,21,0,Al-Talaba,False
+Iraq,Rebin Sulaka,DF,34,55,1,Port,False
+Iraq,Hussein Ali,DF,24,26,1,Pogoń Szczecin,False
+Iraq,Zaid Tahseen,DF,25,27,1,Pakhtakor,False
+Iraq,Akam Hashim,DF,27,13,1,Al-Zawraa,False
+Iraq,Manaf Younis,DF,29,33,1,Al-Shorta,False
+Iraq,Youssef Amyn,MF,22,26,2,AEK Larnaca,False
+Iraq,Ibrahim Bayesh,MF,26,75,8,Al Dhafra,False
+Iraq,Ali Al-Hamadi,FW,24,19,5,Luton Town,False
+Iraq,Mohanad Ali,FW,25,71,27,Dibba,False
+Iraq,Ahmed Qasem,FW,22,2,0,Nashville SC,False
+Iraq,Jalal Hassan,GK,35,101,0,Al-Zawraa,True
+Iraq,Ali Yousif,FW,30,6,1,Al-Talaba,False
+Iraq,Zidane Iqbal,MF,23,24,2,Utrecht,False
+Iraq,Ahmed Maknzi,DF,24,6,0,Al-Karma,False
+Iraq,Amir Al-Ammari,MF,28,50,3,Cracovia,False
+Iraq,Ali Jasim,FW,22,36,2,Al-Najma,False
+Iraq,Aymen Hussein,FW,30,94,33,Al-Karma,False
+Iraq,Kevin Yakob,MF,25,8,0,AGF,False
+Iraq,Aimar Sher,MF,23,6,0,Sarpsborg 08,False
+Iraq,Marko Farji,FW,22,11,0,Venezia,False
+Iraq,Ahmed Basil,GK,29,15,0,Al-Shorta,False
+Iraq,Merchas Doski,DF,26,31,1,Viktoria Plzeň,False
+Iraq,Zaid Ismail,MF,24,6,0,Al-Talaba,False
+Iraq,Mustafa Saadoon,DF,25,16,0,Al-Shorta,False
+Iraq,Frans Putros,DF,32,27,0,Persib,False
+Norway,Ørjan Nyland,GK,35,71,0,Sevilla,False
+Norway,Morten Thorsby,MF,30,31,0,Cremonese,False
+Norway,Kristoffer Ajer,DF,28,52,2,Brentford,False
+Norway,Leo Østigård,DF,26,38,1,Genoa,False
+Norway,David Møller Wolfe,DF,24,22,1,Wolverhampton Wanderers,False
+Norway,Patrick Berg,MF,28,43,0,Bodø/Glimt,False
+Norway,Alexander Sørloth,FW,30,72,26,Atlético Madrid,False
+Norway,Sander Berge,MF,28,66,1,Fulham,False
+Norway,Erling Haaland,FW,25,50,55,Manchester City,False
+Norway,Martin Ødegaard,MF,27,68,5,Arsenal,True
+Norway,Jørgen Strand Larsen,FW,26,28,6,Crystal Palace,False
+Norway,Sander Tangvik,GK,23,0,0,Hamburger SV,False
+Norway,Egil Selvik,GK,28,7,0,Watford,False
+Norway,Fredrik Aursnes,MF,30,22,1,Benfica,False
+Norway,Fredrik André Bjørkan,DF,27,21,1,Bodø/Glimt,False
+Norway,Marcus Holmgren Pedersen,DF,25,32,0,Torino,False
+Norway,Torbjørn Heggem,DF,27,15,0,Bologna,False
+Norway,Kristian Thorstvedt,MF,27,37,4,Sassuolo,False
+Norway,Thelo Aasgaard,MF,24,8,5,Rangers,False
+Norway,Antonio Nusa,FW,21,24,8,RB Leipzig,False
+Norway,Andreas Schjelderup,MF,22,12,1,Benfica,False
+Norway,Oscar Bobb,MF,22,20,2,Fulham,False
+Norway,Jens Petter Hauge,MF,26,15,1,Bodø/Glimt,False
+Norway,Sondre Langås,DF,25,3,0,Derby County,False
+Norway,Henrik Falchener,DF,23,1,0,Viking,False
+Norway,Julian Ryerson,FW,28,43,1,Borussia Dortmund,False
+Senegal,Yehvann Diouf,GK,26,2,0,Nice,False
+Senegal,Mamadou Sarr,DF,20,7,0,Chelsea,False
+Senegal,Kalidou Koulibaly,DF,34,102,2,Al-Hilal,True
+Senegal,Abdoulaye Seck,DF,34,22,4,Maccabi Haifa,False
+Senegal,Idrissa Gueye,MF,36,130,7,Everton,False
+Senegal,Pathé Ciss,MF,32,29,0,Rayo Vallecano,False
+Senegal,Assane Diao,FW,20,5,0,Como,False
+Senegal,Lamine Camara,MF,22,32,7,Monaco,False
+Senegal,Bamba Dieng,FW,26,22,2,Lorient,False
+Senegal,Sadio Mané,FW,34,127,55,Al-Nassr,False
+Senegal,Nicolas Jackson,FW,24,32,8,Bayern Munich,False
+Senegal,Cherif Ndiaye,FW,30,18,4,Samsunspor,False
+Senegal,Iliman Ndiaye,FW,26,39,4,Everton,False
+Senegal,Ismail Jakobs,DF,26,29,0,Galatasaray,False
+Senegal,Krépin Diatta,DF,27,60,2,Monaco,False
+Senegal,Édouard Mendy,GK,34,56,0,Al-Ahli,False
+Senegal,Pape Matar Sarr,MF,23,39,4,Tottenham Hotspur,False
+Senegal,Ismaïla Sarr,FW,28,82,19,Crystal Palace,False
+Senegal,Moussa Niakhaté,DF,30,30,0,Lyon,False
+Senegal,Ibrahim Mbaye,FW,18,10,3,Paris Saint-Germain,False
+Senegal,Habib Diarra,MF,22,20,4,Sunderland,False
+Senegal,Bara Sapoko Ndiaye,MF,18,1,0,Bayern Munich,False
+Senegal,Mory Diaw,GK,32,5,0,Le Havre,False
+Senegal,Antoine Mendy,DF,22,6,0,Nice,False
+Senegal,El Hadji Malick Diouf,DF,21,19,1,West Ham United,False
+Senegal,Pape Gueye,MF,27,41,5,Villarreal,False
+Algeria,Melvin Mastil,GK,26,1,0,Stade Nyonnais,False
+Algeria,Aïssa Mandi,DF,34,117,7,Lille,False
+Algeria,Achref Abada,DF,26,7,1,USM Alger,False
+Algeria,Mohamed Amine Tougai,DF,26,29,2,Espérance de Tunis,False
+Algeria,Zineddine Belaïd,DF,27,10,1,JS Kabylie,False
+Algeria,Ramiz Zerrouki,MF,28,52,3,Twente,False
+Algeria,Riyad Mahrez,FW,35,114,38,Al-Ahli,True
+Algeria,Houssem Aouar,MF,27,20,6,Al-Ittihad,False
+Algeria,Amine Gouiri,FW,26,22,8,Marseille,False
+Algeria,Farès Chaïbi,MF,23,29,3,Eintracht Frankfurt,False
+Algeria,Anis Hadj Moussa,FW,24,14,1,Feyenoord,False
+Algeria,Nadhir Benbouali,FW,26,3,1,Győri ETO,False
+Algeria,Jaouen Hadjam,DF,23,17,3,Young Boys,False
+Algeria,Hicham Boudaoui,MF,26,32,0,Nice,False
+Algeria,Rayan Aït-Nouri,DF,25,28,0,Manchester City,False
+Algeria,Oussama Benbot,GK,31,2,0,USM Alger,False
+Algeria,Rafik Belghali,DF,24,12,1,Hellas Verona,False
+Algeria,Mohamed Amoura,FW,26,45,19,VfL Wolfsburg,False
+Algeria,Nabil Bentaleb,MF,31,59,6,Lille,False
+Algeria,Adil Boulbina,FW,23,11,6,Al-Duhail,False
+Algeria,Ramy Bensebaini,DF,31,81,7,Borussia Dortmund,False
+Algeria,Ibrahim Maza,MF,20,16,2,Bayer Leverkusen,False
+Algeria,Luca Zidane,GK,28,7,0,Granada,False
+Algeria,Yacine Titraoui,MF,22,5,0,Charleroi,False
+Algeria,Farès Ghedjemis,FW,23,1,1,Frosinone,False
+Algeria,Samir Chergui,DF,27,4,0,Paris FC,False
+Argentina,Juan Musso,GK,32,4,0,Atlético Madrid,False
+Argentina,Nicolás Tagliafico,DF,33,76,1,Lyon,False
+Argentina,Gonzalo Montiel,DF,29,38,2,River Plate,False
+Argentina,Leandro Paredes,MF,31,77,5,Boca Juniors,False
+Argentina,Lisandro Martínez,DF,28,27,1,Manchester United,False
+Argentina,Rodrigo De Paul,MF,32,86,2,Inter Miami CF,False
+Argentina,Valentín Barco,MF,21,3,1,Strasbourg,False
+Argentina,Julián Alvarez,FW,26,51,14,Atlético Madrid,False
+Argentina,Lionel Messi,FW,38,198,116,Inter Miami CF,True
+Argentina,Giovani Lo Celso,MF,30,66,4,Real Betis,False
+Argentina,Gerónimo Rulli,GK,34,7,0,Marseille,False
+Argentina,Cristian Romero,DF,28,50,3,Tottenham Hotspur,False
+Argentina,Exequiel Palacios,MF,27,39,0,Bayer Leverkusen,False
+Argentina,Nicolás González,MF,28,50,6,Atlético Madrid,False
+Argentina,Thiago Almada,FW,25,15,4,Atlético Madrid,False
+Argentina,Giuliano Simeone,FW,23,12,2,Atlético Madrid,False
+Argentina,Nico Paz,FW,21,8,1,Como,False
+Argentina,Nicolás Otamendi,DF,38,131,8,Benfica,False
+Argentina,Alexis Mac Allister,MF,27,45,6,Liverpool,False
+Argentina,José Manuel López,FW,25,4,0,Palmeiras,False
+Argentina,Lautaro Martínez,FW,28,76,37,Inter Milan,False
+Argentina,Emiliano Martínez,GK,33,59,0,Aston Villa,False
+Argentina,Enzo Fernández,MF,25,41,6,Chelsea,False
+Argentina,Facundo Medina,DF,27,8,0,Marseille,False
+Argentina,Nahuel Molina,DF,28,58,1,Atlético Madrid,False
+Austria,Alexander Schlager,GK,30,26,0,Red Bull Salzburg,False
+Austria,David Affengruber,DF,25,1,0,Elche,False
+Austria,Kevin Danso,DF,27,32,0,Tottenham Hotspur,False
+Austria,Xaver Schlager,MF,28,51,4,RB Leipzig,False
+Austria,Stefan Posch,DF,29,52,5,Mainz 05,False
+Austria,Nicolas Seiwald,MF,25,47,1,RB Leipzig,False
+Austria,Marko Arnautović,FW,37,133,47,Red Star Belgrade,False
+Austria,David Alaba,DF,33,113,15,Real Madrid,True
+Austria,Marcel Sabitzer,MF,32,98,26,Borussia Dortmund,False
+Austria,Florian Grillitsch,MF,30,58,1,Braga,False
+Austria,Michael Gregoritsch,FW,32,75,24,FC Augsburg,False
+Austria,Florian Wiegele,GK,25,1,0,Viktoria Plzeň,False
+Austria,Patrick Pentz,GK,29,18,0,Brøndby,False
+Austria,Saša Kalajdžić,FW,28,22,4,LASK,False
+Austria,Philipp Lienhart,DF,29,41,3,SC Freiburg,False
+Austria,Phillipp Mwene,DF,32,30,0,Mainz 05,False
+Austria,Carney Chukwuemeka,MF,22,3,1,Borussia Dortmund,False
+Austria,Romano Schmid,MF,26,34,3,Werder Bremen,False
+Austria,Konrad Laimer,MF,29,57,7,Bayern Munich,False
+Austria,Patrick Wimmer,FW,25,30,1,VfL Wolfsburg,False
+Austria,Alexander Prass,MF,25,19,0,TSG Hoffenheim,False
+Austria,Marco Friedl,DF,28,11,0,Werder Bremen,False
+Austria,Paul Wanner,MF,20,3,0,PSV Eindhoven,False
+Austria,Michael Svoboda,DF,27,4,0,Venezia,False
+Austria,Alessandro Schöpf,MF,32,35,6,Wolfsberger AC,False
+Jordan,Yazeed Abulaila,GK,33,76,0,Al-Hussein,False
+Jordan,Mohammad Abu Hashish,DF,31,56,1,Al-Karma,False
+Jordan,Abdallah Nasib,DF,32,65,3,Al-Zawraa,False
+Jordan,Husam Abu Dahab,DF,26,18,0,Al-Faisaly,False
+Jordan,Yazan Al-Arab,DF,30,80,3,FC Seoul,False
+Jordan,Amer Jamous,MF,23,19,1,Al-Zawraa,False
+Jordan,Mohammad Abu Zrayq,FW,28,41,5,Raja Casablanca,False
+Jordan,Noor Al-Rawabdeh,MF,29,68,3,Selangor,False
+Jordan,Ali Olwan,FW,26,66,29,Al-Sailiya,False
+Jordan,Musa Al-Taamari,FW,29,92,24,Rennes,False
+Jordan,Odeh Al-Fakhouri,FW,20,10,1,Pyramids,False
+Jordan,Nour Bani Attiah,GK,33,5,0,Al-Faisaly,False
+Jordan,Mahmoud Al-Mardi,FW,32,89,9,Al-Hussein,False
+Jordan,Rajaei Ayed,MF,32,72,0,Al-Hussein,False
+Jordan,Ibrahim Sadeh,MF,26,57,3,Al-Karma,False
+Jordan,Mo Abualnadi,DF,25,18,0,Selangor,False
+Jordan,Salim Obaid,DF,34,11,0,Al-Hussein,False
+Jordan,Mohammad Taha,DF,20,2,0,Al-Hussein,False
+Jordan,Saed Al-Rosan,DF,29,21,2,Al-Hussein,False
+Jordan,Mohannad Abu Taha,MF,23,29,1,Al-Quwa Al-Jawiya,False
+Jordan,Nizar Al-Rashdan,MF,27,47,4,Qatar SC,False
+Jordan,Abdallah Al-Fakhouri,GK,26,11,0,Al-Wehdat,False
+Jordan,Ihsan Haddad,DF,32,92,2,Al-Hussein,True
+Jordan,Ali Azaizeh,FW,22,4,0,Al-Shabab,False
+Jordan,Mohammad Al-Dawoud,MF,34,13,1,Al-Wehdat,False
+Jordan,Anas Badawi,DF,28,1,0,Al-Faisaly,False
+Colombia,David Ospina,GK,37,130,0,Atlético Nacional,False
+Colombia,Daniel Muñoz,DF,30,46,3,Crystal Palace,False
+Colombia,Jhon Lucumí,DF,27,37,1,Bologna,False
+Colombia,Santiago Arias,DF,34,68,0,Independiente,False
+Colombia,Kevin Castaño,MF,25,25,0,River Plate,False
+Colombia,Richard Ríos,MF,26,32,2,Benfica,False
+Colombia,Luis Díaz,FW,29,74,22,Bayern Munich,False
+Colombia,Jorge Carrascal,MF,28,24,2,Flamengo,False
+Colombia,Jhon Córdoba,FW,33,21,6,Krasnodar,False
+Colombia,James Rodríguez,MF,34,126,31,Minnesota United FC,True
+Colombia,Jhon Arias,MF,28,38,6,Palmeiras,False
+Colombia,Camilo Vargas,GK,37,42,0,Atlas,False
+Colombia,Yerry Mina,DF,31,54,8,Cagliari,False
+Colombia,Gustavo Puerta,DF,22,6,1,Racing Santander,False
+Colombia,Juan Portilla,MF,27,10,0,Athletico Paranaense,False
+Colombia,Jefferson Lerma,MF,31,65,5,Crystal Palace,False
+Colombia,Johan Mojica,DF,33,45,1,Mallorca,False
+Colombia,Willer Ditta,DF,28,5,0,Cruz Azul,False
+Colombia,Cucho Hernández,FW,27,9,2,Real Betis,False
+Colombia,Juan Fernando Quintero,MF,33,49,6,River Plate,False
+Colombia,Jaminton Campaz,FW,26,10,1,Rosario Central,False
+Colombia,Deiver Machado,DF,32,15,0,Nantes,False
+Colombia,Davinson Sánchez,DF,29,79,4,Galatasaray,False
+Colombia,Álvaro Montero,GK,31,12,0,Vélez Sarsfield,False
+Colombia,Luis Suárez,FW,28,12,5,Sporting CP,False
+Colombia,Andrés Gómez,FW,23,8,2,Vasco da Gama,False
+DR Congo,Lionel Mpasi,GK,31,28,0,Le Havre,False
+DR Congo,Aaron Wan-Bissaka,DF,28,11,0,West Ham United,False
+DR Congo,Steve Kapuadi,DF,28,4,0,Widzew Łódź,False
+DR Congo,Axel Tuanzebe,DF,28,13,1,Burnley,False
+DR Congo,Dylan Batubinsika,DF,30,14,1,AEL,False
+DR Congo,Ngal'ayel Mukau,MF,21,13,0,Lille,False
+DR Congo,Nathanaël Mbuku,MF,24,18,2,Montpellier,False
+DR Congo,Samuel Moutoussamy,MF,29,57,0,Atromitos,False
+DR Congo,Brian Cipenga,FW,28,7,0,Castellón,False
+DR Congo,Théo Bongonda,MF,30,37,7,Spartak Moscow,False
+DR Congo,Gaël Kakuta,FW,34,30,5,AEL,False
+DR Congo,Joris Kayembe,DF,31,25,0,Genk,False
+DR Congo,Meschak Elia,FW,28,68,12,Alanyaspor,False
+DR Congo,Noah Sadiki,MF,21,19,0,Sunderland,False
+DR Congo,Aaron Tshibola,MF,31,16,1,Kilmarnock,False
+DR Congo,Timothy Fayulu,GK,26,3,0,Noah,False
+DR Congo,Cédric Bakambu,FW,35,69,21,Real Betis,False
+DR Congo,Charles Pickel,MF,29,34,1,Espanyol,False
+DR Congo,Fiston Mayele,FW,31,37,6,Pyramids,False
+DR Congo,Yoane Wissa,FW,29,37,9,Newcastle United,False
+DR Congo,Matthieu Epolo,GK,21,1,0,Standard Liège,False
+DR Congo,Chancel Mbemba,DF,31,108,7,Lille,True
+DR Congo,Simon Banza,FW,29,15,2,Al Jazira,False
+DR Congo,Gédéon Kalulu,DF,28,28,0,Aris Limassol,False
+DR Congo,Edo Kayembe,MF,28,42,2,Watford,False
+DR Congo,Arthur Masuaku,DF,32,45,4,Lens,False
+Portugal,Diogo Costa,GK,26,42,0,Porto,False
+Portugal,Nélson Semedo,DF,32,49,0,Fenerbahçe,False
+Portugal,Rúben Dias,DF,29,75,3,Manchester City,False
+Portugal,Tomás Araújo,DF,24,4,0,Benfica,False
+Portugal,Diogo Dalot,DF,27,34,3,Manchester United,False
+Portugal,Matheus Nunes,MF,27,19,2,Manchester City,False
+Portugal,Cristiano Ronaldo,FW,41,227,143,Al-Nassr,True
+Portugal,Bruno Fernandes,MF,31,88,29,Manchester United,False
+Portugal,Gonçalo Ramos,FW,24,24,10,Paris Saint-Germain,False
+Portugal,Bernardo Silva,MF,31,108,14,Manchester City,False
+Portugal,João Félix,FW,26,53,12,Al-Nassr,False
+Portugal,José Sá,GK,33,5,0,Wolverhampton Wanderers,False
+Portugal,Renato Veiga,DF,22,12,1,Villarreal,False
+Portugal,Gonçalo Inácio,DF,24,21,2,Sporting CP,False
+Portugal,João Neves,MF,21,21,3,Paris Saint-Germain,False
+Portugal,Francisco Trincão,FW,26,17,3,Sporting CP,False
+Portugal,Rafael Leão,FW,27,44,5,Milan,False
+Portugal,Pedro Neto,FW,26,24,2,Chelsea,False
+Portugal,Gonçalo Guedes,FW,29,34,8,Real Sociedad,False
+Portugal,João Cancelo,DF,32,67,12,Barcelona,False
+Portugal,Rúben Neves,MF,29,66,1,Al-Hilal,False
+Portugal,Rui Silva,GK,32,3,0,Sporting CP,False
+Portugal,Vitinha,MF,26,37,0,Paris Saint-Germain,False
+Portugal,Samú Costa,DF,25,5,0,Mallorca,False
+Portugal,Nuno Mendes,DF,23,43,1,Paris Saint-Germain,False
+Portugal,Francisco Conceição,FW,23,16,3,Juventus,False
+Uzbekistan,Utkir Yusupov,GK,35,40,0,Navbahor Namangan,False
+Uzbekistan,Abdukodir Khusanov,DF,22,27,0,Manchester City,False
+Uzbekistan,Khojiakbar Alijonov,DF,29,40,2,Pakhtakor,False
+Uzbekistan,Farrukh Sayfiev,DF,35,46,1,Neftchi Fergana,False
+Uzbekistan,Rustam Ashurmatov,DF,29,49,1,Esteghlal,False
+Uzbekistan,Akmal Mozgovoy,MF,27,25,1,Pakhtakor,False
+Uzbekistan,Otabek Shukurov,MF,29,84,9,Baniyas,False
+Uzbekistan,Jamshid Iskanderov,MF,32,38,4,Neftchi Fergana,False
+Uzbekistan,Odiljon Hamrobekov,MF,30,72,1,Tractor,False
+Uzbekistan,Jaloliddin Masharipov,MF,32,74,12,Esteghlal,False
+Uzbekistan,Oston Urunov,MF,25,42,10,Persepolis,False
+Uzbekistan,Abduvohid Nematov,GK,25,8,0,Nasaf,False
+Uzbekistan,Sherzod Nasrullaev,DF,27,31,2,Nasaf,False
+Uzbekistan,Eldor Shomurodov,FW,30,92,44,İstanbul Başakşehir,True
+Uzbekistan,Umar Eshmurodov,DF,33,29,0,Nasaf,False
+Uzbekistan,Botirali Ergashev,GK,30,2,0,Neftchi Fergana,False
+Uzbekistan,Dostonbek Khamdamov,MF,29,34,5,Pakhtakor,False
+Uzbekistan,Abdulla Abdullaev,DF,28,17,0,Dibba,False
+Uzbekistan,Azizjon Ganiev,MF,28,19,0,Al Bataeh,False
+Uzbekistan,Azizbek Amonov,FW,28,12,2,Dinamo Samarqand,False
+Uzbekistan,Igor Sergeev,FW,33,83,25,Persepolis,False
+Uzbekistan,Abbosbek Fayzullaev,MF,22,32,8,İstanbul Başakşehir,False
+Uzbekistan,Sherzod Esanov,MF,23,1,0,Bukhara,False
+Uzbekistan,Bekhruz Karimov,DF,18,2,0,Surkhon Termiz,False
+Uzbekistan,Avazbek Ulmasaliev,DF,26,0,0,AGMK,False
+Uzbekistan,Jakhongir Urozov,DF,22,4,0,Dinamo Samarqand,False
+Croatia,Dominik Livaković,GK,31,75,0,Dinamo Zagreb,False
+Croatia,Josip Stanišić,DF,26,31,0,Bayern Munich,False
+Croatia,Marin Pongračić,DF,28,20,0,Fiorentina,False
+Croatia,Joško Gvardiol,DF,24,48,4,Manchester City,False
+Croatia,Duje Ćaleta-Car,DF,29,38,1,Real Sociedad,False
+Croatia,Josip Šutalo,DF,26,33,0,Ajax,False
+Croatia,Nikola Moro,MF,28,10,0,Bologna,False
+Croatia,Mateo Kovačić,MF,32,113,5,Manchester City,False
+Croatia,Andrej Kramarić,FW,34,116,36,TSG Hoffenheim,False
+Croatia,Luka Modrić,MF,40,198,29,Milan,True
+Croatia,Ante Budimir,FW,34,38,6,Osasuna,False
+Croatia,Ivor Pandur,GK,26,0,0,Hull City,False
+Croatia,Nikola Vlašić,MF,28,63,10,Torino,False
+Croatia,Ivan Perišić,FW,37,154,38,PSV Eindhoven,False
+Croatia,Mario Pašalić,MF,31,85,12,Atalanta,False
+Croatia,Martin Baturina,MF,23,19,1,Como,False
+Croatia,Petar Sučić,MF,22,17,1,Inter Milan,False
+Croatia,Kristijan Jakić,DF,29,17,2,FC Augsburg,False
+Croatia,Toni Fruk,MF,25,7,1,Rijeka,False
+Croatia,Igor Matanović,FW,23,9,2,SC Freiburg,False
+Croatia,Luka Sučić,MF,23,21,1,Real Sociedad,False
+Croatia,Luka Vušković,DF,19,5,1,Hamburger SV,False
+Croatia,Dominik Kotarski,GK,26,4,0,Copenhagen,False
+Croatia,Marco Pašalić,FW,25,15,1,Orlando City SC,False
+Croatia,Martin Erlić,DF,28,13,1,Midtjylland,False
+Croatia,Petar Musa,FW,28,11,1,FC Dallas,False
+England,Jordan Pickford,GK,32,83,0,Everton,False
+England,Ezri Konsa,DF,28,19,1,Aston Villa,False
+England,Nico O'Reilly,DF,21,4,0,Manchester City,False
+England,Declan Rice,MF,27,72,6,Arsenal,False
+England,John Stones,DF,32,88,3,Manchester City,False
+England,Marc Guéhi,DF,25,28,1,Manchester City,False
+England,Bukayo Saka,FW,24,48,14,Arsenal,False
+England,Elliot Anderson,MF,23,8,0,Nottingham Forest,False
+England,Harry Kane,FW,32,113,79,Bayern Munich,True
+England,Jude Bellingham,MF,22,47,6,Real Madrid,False
+England,Marcus Rashford,FW,28,71,18,Barcelona,False
+England,Tino Livramento,DF,23,6,0,Newcastle United,False
+England,Dean Henderson,GK,29,4,0,Crystal Palace,False
+England,Jordan Henderson,MF,35,90,3,Brentford,False
+England,Dan Burn,DF,34,7,0,Newcastle United,False
+England,Kobbie Mainoo,MF,21,13,0,Manchester United,False
+England,Morgan Rogers,MF,23,14,1,Aston Villa,False
+England,Anthony Gordon,FW,25,18,2,Newcastle United,False
+England,Ollie Watkins,FW,30,21,6,Aston Villa,False
+England,Noni Madueke,FW,24,10,1,Arsenal,False
+England,Eberechi Eze,MF,27,16,3,Arsenal,False
+England,Ivan Toney,FW,30,8,1,Al-Ahli,False
+England,James Trafford,GK,23,2,0,Manchester City,False
+England,Reece James,DF,26,23,1,Chelsea,False
+England,Djed Spence,DF,25,5,0,Tottenham Hotspur,False
+England,Jarell Quansah,DF,23,2,0,Bayer Leverkusen,False
+Ghana,Lawrence Ati-Zigi,GK,29,29,0,St. Gallen,False
+Ghana,Alidu Seidu,DF,26,24,1,Rennes,False
+Ghana,Caleb Yirenkyi,MF,20,11,1,Nordsjælland,False
+Ghana,Jonas Adjetey,DF,22,10,0,VfL Wolfsburg,False
+Ghana,Thomas Partey,MF,32,57,15,Villarreal,False
+Ghana,Abdul Mumin,DF,28,5,0,Rayo Vallecano,False
+Ghana,Abdul Fatawu,FW,22,28,3,Leicester City,False
+Ghana,Kwasi Sibo,MF,27,8,0,Oviedo,False
+Ghana,Jordan Ayew,FW,34,120,34,Leicester City,True
+Ghana,Brandon Thomas-Asante,FW,27,8,1,Coventry City,False
+Ghana,Antoine Semenyo,MF,26,34,3,Manchester City,False
+Ghana,Joseph Anang,GK,26,1,0,St Patrick's Athletic,False
+Ghana,Christopher Bonsu Baah,FW,21,9,0,Al-Qadsiah,False
+Ghana,Gideon Mensah,DF,27,40,0,Auxerre,False
+Ghana,Elisha Owusu,MF,28,20,0,Auxerre,False
+Ghana,Benjamin Asare,GK,33,11,0,Hearts of Oak,False
+Ghana,Abdul Rahman Baba,DF,31,51,1,PAOK,False
+Ghana,Jerome Opoku,DF,27,11,1,İstanbul Başakşehir,False
+Ghana,Iñaki Williams,FW,31,26,2,Athletic Bilbao,False
+Ghana,Augustine Boakye,MF,25,0,0,Saint-Étienne,False
+Ghana,Kojo Peprah Oppong,DF,22,4,0,Nice,False
+Ghana,Kamaldeen Sulemana,FW,24,28,1,Atalanta,False
+Ghana,Derrick Luckassen,DF,30,1,0,Pafos,False
+Ghana,Ernest Nuamah,FW,22,18,4,Lyon,False
+Ghana,Prince Kwabena Adu,FW,22,5,0,Viktoria Plzeň,False
+Ghana,Marvin Senaya,DF,25,2,0,Auxerre,False
+Panama,Luis Mejía,GK,35,56,0,Nacional,False
+Panama,César Blackman,DF,28,40,3,Slovan Bratislava,False
+Panama,José Córdoba,DF,25,32,1,Norwich City,False
+Panama,Fidel Escobar,DF,31,99,4,Saprissa,False
+Panama,Edgardo Fariña,DF,24,18,0,Pari Nizhny Novgorod,False
+Panama,Cristian Martínez,MF,29,66,2,Ironi Kiryat Shmona,False
+Panama,José Luis Rodríguez,MF,27,70,8,Juárez,False
+Panama,Adalberto Carrasquilla,MF,27,73,3,UNAM,False
+Panama,Tomás Rodríguez,FW,27,13,4,Saprissa,False
+Panama,Ismael Díaz,MF,29,57,17,León,False
+Panama,Yoel Bárcenas,MF,32,104,10,Mazatlán,False
+Panama,César Samudio,GK,32,5,0,Marathón,False
+Panama,Jiovany Ramos,DF,29,23,2,Puerto Cabello,False
+Panama,Carlos Harvey,DF,26,28,3,Minnesota United FC,False
+Panama,Eric Davis,DF,35,107,9,Plaza Amador,False
+Panama,Andrés Andrade,DF,27,50,1,LASK,False
+Panama,José Fajardo,FW,32,68,17,Universidad Católica,False
+Panama,Cecilio Waterman,FW,35,55,15,Universidad de Concepción,False
+Panama,Alberto Quintero,MF,38,141,7,Plaza Amador,False
+Panama,Aníbal Godoy,MF,36,159,4,San Diego FC,True
+Panama,César Yanis,MF,30,56,5,Cobresal,False
+Panama,Orlando Mosquera,GK,31,48,0,Al-Fayha,False
+Panama,Michael Amir Murillo,DF,30,94,9,Beşiktaş,False
+Panama,Azarias Londoño,FW,24,11,0,Universidad Católica,False
+Panama,Roderick Miller,DF,34,50,2,Turan Tovuz,False
+Panama,Jorge Gutiérrez,DF,27,18,0,Deportivo La Guaira,False

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 Predictor</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header>
+  <div class="masthead">
+    <h1>World Cup 2026 <span class="accent">Predictor</span></h1>
+  </div>
+  <p class="sub">Live Monte Carlo engine — Elo + 10-year Dixon-Coles model, player
+  scorer probabilities, football-media intelligence.</p>
+  <div class="actions" role="group" aria-label="Engine actions">
+    <button type="button" data-action="refresh">Ingest latest results</button>
+    <button type="button" data-action="news">News sweep</button>
+    <button type="button" data-action="odds">Re-simulate odds</button>
+    <label>Simulations
+      <select id="sims">
+        <option value="10000">10k</option>
+        <option value="20000" selected>20k</option>
+        <option value="50000">50k</option>
+        <option value="100000">100k</option>
+        <option value="500000">500k (~10-20 min)</option>
+        <option value="1000000">1M (~30-45 min)</option>
+      </select>
+    </label>
+    <span id="job-status" role="status" aria-live="polite"></span>
+  </div>
+</header>
+
+<nav aria-label="Sections">
+  <div role="tablist" aria-label="Predictor sections">
+    <button role="tab" id="tab-matches" aria-controls="panel-matches" aria-selected="true">Matches</button>
+    <button role="tab" id="tab-lab" aria-controls="panel-lab" aria-selected="false" tabindex="-1">Match lab</button>
+    <button role="tab" id="tab-odds" aria-controls="panel-odds" aria-selected="false" tabindex="-1">Title odds</button>
+    <button role="tab" id="tab-groups" aria-controls="panel-groups" aria-selected="false" tabindex="-1">Groups</button>
+    <button role="tab" id="tab-radar" aria-controls="panel-radar" aria-selected="false" tabindex="-1">Team radar</button>
+    <button role="tab" id="tab-intel" aria-controls="panel-intel" aria-selected="false" tabindex="-1">Intelligence</button>
+  </div>
+</nav>
+
+<main id="main">
+  <section id="panel-matches" role="tabpanel" aria-labelledby="tab-matches" tabindex="0">
+    <div class="day-nav">
+      <button type="button" id="prev-day" aria-label="Previous day">&larr;</button>
+      <label for="day-picker" class="visually-hidden">Match day</label>
+      <input type="date" id="day-picker" min="2026-06-11" max="2026-07-19" value="2026-06-11">
+      <button type="button" id="next-day" aria-label="Next day">&rarr;</button>
+    </div>
+    <div id="matches" aria-live="polite"></div>
+  </section>
+
+  <section id="panel-lab" role="tabpanel" aria-labelledby="tab-lab" tabindex="0" hidden>
+    <h2>Match lab — analyze any pairing on demand</h2>
+    <p>Runs the engine live for the two teams you pick (group rivals, likely
+    knockout pairings, anything). Optionally forces a fresh media sweep first.</p>
+    <form id="lab-form" class="actions">
+      <label>Home/first team <select id="lab-home" required></select></label>
+      <label>Away/second team <select id="lab-away" required></select></label>
+      <label><input type="checkbox" id="lab-fresh"> Fresh news sweep first (~20s)</label>
+      <button type="submit">Run analysis</button>
+    </form>
+    <p id="lab-status" role="status" aria-live="polite"></p>
+    <div id="lab-result"></div>
+  </section>
+
+  <section id="panel-odds" role="tabpanel" aria-labelledby="tab-odds" tabindex="0" hidden>
+    <h2>Tournament probabilities</h2>
+    <div id="odds"></div>
+  </section>
+
+  <section id="panel-groups" role="tabpanel" aria-labelledby="tab-groups" tabindex="0" hidden>
+    <h2>Groups</h2>
+    <div id="groups" class="card-grid"></div>
+  </section>
+
+  <section id="panel-radar" role="tabpanel" aria-labelledby="tab-radar" tabindex="0" hidden>
+    <h2>10-year team radar</h2>
+    <div id="radar"></div>
+  </section>
+
+  <section id="panel-intel" role="tabpanel" aria-labelledby="tab-intel" tabindex="0" hidden>
+    <h2>Football-media intelligence</h2>
+    <form id="team-search-form" class="actions">
+      <label>Search latest news for <select id="team-search"></select></label>
+      <button type="submit">Fetch feeds now</button>
+    </form>
+    <p id="team-search-status" role="status" aria-live="polite"></p>
+    <div id="team-news"></div>
+    <div id="intel"></div>
+  </section>
+</main>
+
+<footer>
+  <p id="meta"></p>
+  <details>
+    <summary>Engine log (recent jobs)</summary>
+    <div id="engine-log" aria-live="off"></div>
+  </details>
+  <p>Model caveats: ratings know nothing bookmakers don't; scorer probabilities assume
+  caps-based participation; news flags are keyword-extracted with evidence shown.</p>
+  <p>Unofficial personal project. The crest is the property of Real Madrid C.F.,
+  used here decoratively as a design homage.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

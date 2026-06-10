@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fifa-wc-2026-predictor
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/status
+    autoDeploy: true

@@ -1,0 +1,482 @@
+{
+  "Mexico": {
+    "matches": 168,
+    "wins": 93,
+    "draws": 37,
+    "losses": 38,
+    "gf_pm": 1.55,
+    "ga_pm": 0.93,
+    "form": 0.202,
+    "last5": "DDWWW"
+  },
+  "South Africa": {
+    "matches": 118,
+    "wins": 52,
+    "draws": 44,
+    "losses": 22,
+    "gf_pm": 1.35,
+    "ga_pm": 0.81,
+    "form": -0.002,
+    "last5": "LDLDW"
+  },
+  "South Korea": {
+    "matches": 129,
+    "wins": 70,
+    "draws": 33,
+    "losses": 26,
+    "gf_pm": 1.71,
+    "ga_pm": 0.92,
+    "form": -0.029,
+    "last5": "WLLWW"
+  },
+  "Czechia": {
+    "matches": 108,
+    "wins": 53,
+    "draws": 21,
+    "losses": 34,
+    "gf_pm": 1.69,
+    "ga_pm": 1.2,
+    "form": 0.037,
+    "last5": "WDDWW"
+  },
+  "Canada": {
+    "matches": 107,
+    "wins": 57,
+    "draws": 24,
+    "losses": 26,
+    "gf_pm": 2.0,
+    "ga_pm": 0.94,
+    "form": -0.008,
+    "last5": "WDDWD"
+  },
+  "Bosnia and Herzegovina": {
+    "matches": 95,
+    "wins": 30,
+    "draws": 27,
+    "losses": 38,
+    "gf_pm": 1.23,
+    "ga_pm": 1.36,
+    "form": 0.224,
+    "last5": "DDDDD"
+  },
+  "Qatar": {
+    "matches": 149,
+    "wins": 68,
+    "draws": 31,
+    "losses": 50,
+    "gf_pm": 1.54,
+    "ga_pm": 1.26,
+    "form": -0.171,
+    "last5": "LDLLD"
+  },
+  "Switzerland": {
+    "matches": 114,
+    "wins": 55,
+    "draws": 34,
+    "losses": 25,
+    "gf_pm": 1.85,
+    "ga_pm": 1.06,
+    "form": -0.028,
+    "last5": "DLDWD"
+  },
+  "Brazil": {
+    "matches": 118,
+    "wins": 77,
+    "draws": 25,
+    "losses": 16,
+    "gf_pm": 2.03,
+    "ga_pm": 0.61,
+    "form": 0.008,
+    "last5": "DLWWW"
+  },
+  "Haiti": {
+    "matches": 76,
+    "wins": 39,
+    "draws": 13,
+    "losses": 24,
+    "gf_pm": 2.25,
+    "ga_pm": 1.3,
+    "form": 0.052,
+    "last5": "WLDWL"
+  },
+  "Morocco": {
+    "matches": 136,
+    "wins": 89,
+    "draws": 30,
+    "losses": 17,
+    "gf_pm": 1.81,
+    "ga_pm": 0.51,
+    "form": 0.146,
+    "last5": "DWWWD"
+  },
+  "Scotland": {
+    "matches": 102,
+    "wins": 45,
+    "draws": 20,
+    "losses": 37,
+    "gf_pm": 1.45,
+    "ga_pm": 1.3,
+    "form": 0.078,
+    "last5": "WLLWW"
+  },
+  "United States": {
+    "matches": 148,
+    "wins": 79,
+    "draws": 31,
+    "losses": 38,
+    "gf_pm": 1.89,
+    "ga_pm": 0.93,
+    "form": 0.244,
+    "last5": "WLLWL"
+  },
+  "Australia": {
+    "matches": 100,
+    "wins": 54,
+    "draws": 23,
+    "losses": 23,
+    "gf_pm": 1.78,
+    "ga_pm": 0.86,
+    "form": -0.129,
+    "last5": "LWWLD"
+  },
+  "Paraguay": {
+    "matches": 95,
+    "wins": 27,
+    "draws": 26,
+    "losses": 42,
+    "gf_pm": 0.93,
+    "ga_pm": 1.29,
+    "form": -0.022,
+    "last5": "LWWLW"
+  },
+  "Turkey": {
+    "matches": 111,
+    "wins": 55,
+    "draws": 28,
+    "losses": 28,
+    "gf_pm": 1.74,
+    "ga_pm": 1.26,
+    "form": 0.224,
+    "last5": "DWWWW"
+  },
+  "Germany": {
+    "matches": 122,
+    "wins": 68,
+    "draws": 30,
+    "losses": 24,
+    "gf_pm": 2.3,
+    "ga_pm": 1.1,
+    "form": 0.182,
+    "last5": "WWWWW"
+  },
+  "Curacao": {
+    "matches": 72,
+    "wins": 28,
+    "draws": 18,
+    "losses": 26,
+    "gf_pm": 1.75,
+    "ga_pm": 1.19,
+    "form": -0.017,
+    "last5": "DLLLW"
+  },
+  "Ecuador": {
+    "matches": 108,
+    "wins": 42,
+    "draws": 35,
+    "losses": 31,
+    "gf_pm": 1.26,
+    "ga_pm": 1.0,
+    "form": -0.018,
+    "last5": "WDDWW"
+  },
+  "Ivory Coast": {
+    "matches": 110,
+    "wins": 60,
+    "draws": 28,
+    "losses": 22,
+    "gf_pm": 1.65,
+    "ga_pm": 0.81,
+    "form": 0.304,
+    "last5": "WLWWW"
+  },
+  "Netherlands": {
+    "matches": 114,
+    "wins": 66,
+    "draws": 26,
+    "losses": 22,
+    "gf_pm": 2.24,
+    "ga_pm": 0.98,
+    "form": -0.027,
+    "last5": "WWDLW"
+  },
+  "Japan": {
+    "matches": 128,
+    "wins": 81,
+    "draws": 20,
+    "losses": 27,
+    "gf_pm": 2.24,
+    "ga_pm": 0.84,
+    "form": 0.176,
+    "last5": "WWWWW"
+  },
+  "Sweden": {
+    "matches": 117,
+    "wins": 58,
+    "draws": 19,
+    "losses": 40,
+    "gf_pm": 1.64,
+    "ga_pm": 1.17,
+    "form": -0.001,
+    "last5": "DWWLD"
+  },
+  "Tunisia": {
+    "matches": 133,
+    "wins": 68,
+    "draws": 31,
+    "losses": 34,
+    "gf_pm": 1.41,
+    "ga_pm": 0.83,
+    "form": -0.069,
+    "last5": "DWDLL"
+  },
+  "Belgium": {
+    "matches": 119,
+    "wins": 77,
+    "draws": 23,
+    "losses": 19,
+    "gf_pm": 2.5,
+    "ga_pm": 0.88,
+    "form": 0.116,
+    "last5": "WWDWW"
+  },
+  "Egypt": {
+    "matches": 122,
+    "wins": 67,
+    "draws": 32,
+    "losses": 23,
+    "gf_pm": 1.43,
+    "ga_pm": 0.7,
+    "form": 0.228,
+    "last5": "DWDWL"
+  },
+  "Iran": {
+    "matches": 108,
+    "wins": 72,
+    "draws": 20,
+    "losses": 16,
+    "gf_pm": 1.99,
+    "ga_pm": 0.66,
+    "form": -0.078,
+    "last5": "DLWWW"
+  },
+  "New Zealand": {
+    "matches": 68,
+    "wins": 27,
+    "draws": 10,
+    "losses": 31,
+    "gf_pm": 1.6,
+    "ga_pm": 1.09,
+    "form": -0.172,
+    "last5": "LLWLL"
+  },
+  "Spain": {
+    "matches": 121,
+    "wins": 77,
+    "draws": 34,
+    "losses": 10,
+    "gf_pm": 2.48,
+    "ga_pm": 0.79,
+    "form": -0.119,
+    "last5": "DWDDW"
+  },
+  "Cape Verde": {
+    "matches": 83,
+    "wins": 35,
+    "draws": 22,
+    "losses": 26,
+    "gf_pm": 1.17,
+    "ga_pm": 1.02,
+    "form": -0.025,
+    "last5": "DLDWL"
+  },
+  "Saudi Arabia": {
+    "matches": 147,
+    "wins": 62,
+    "draws": 33,
+    "losses": 52,
+    "gf_pm": 1.27,
+    "ga_pm": 1.07,
+    "form": -0.09,
+    "last5": "LLLWD"
+  },
+  "Uruguay": {
+    "matches": 110,
+    "wins": 49,
+    "draws": 33,
+    "losses": 28,
+    "gf_pm": 1.4,
+    "ga_pm": 0.92,
+    "form": -0.054,
+    "last5": "WDLDD"
+  },
+  "France": {
+    "matches": 128,
+    "wins": 84,
+    "draws": 26,
+    "losses": 18,
+    "gf_pm": 2.12,
+    "ga_pm": 0.87,
+    "form": -0.029,
+    "last5": "WWWLW"
+  },
+  "Iraq": {
+    "matches": 133,
+    "wins": 59,
+    "draws": 44,
+    "losses": 30,
+    "gf_pm": 1.26,
+    "ga_pm": 0.91,
+    "form": 0.033,
+    "last5": "LWWDL"
+  },
+  "Norway": {
+    "matches": 97,
+    "wins": 51,
+    "draws": 21,
+    "losses": 25,
+    "gf_pm": 1.97,
+    "ga_pm": 1.03,
+    "form": 0.048,
+    "last5": "WLDWD"
+  },
+  "Senegal": {
+    "matches": 127,
+    "wins": 79,
+    "draws": 34,
+    "losses": 14,
+    "gf_pm": 1.69,
+    "ga_pm": 0.63,
+    "form": -0.055,
+    "last5": "LWWLD"
+  },
+  "Argentina": {
+    "matches": 119,
+    "wins": 79,
+    "draws": 24,
+    "losses": 16,
+    "gf_pm": 1.97,
+    "ga_pm": 0.67,
+    "form": -0.062,
+    "last5": "WWWWW"
+  },
+  "Algeria": {
+    "matches": 125,
+    "wins": 79,
+    "draws": 28,
+    "losses": 18,
+    "gf_pm": 2.12,
+    "ga_pm": 0.82,
+    "form": 0.177,
+    "last5": "WLWDW"
+  },
+  "Austria": {
+    "matches": 105,
+    "wins": 58,
+    "draws": 19,
+    "losses": 28,
+    "gf_pm": 1.74,
+    "ga_pm": 1.0,
+    "form": 0.014,
+    "last5": "WDWWW"
+  },
+  "Jordan": {
+    "matches": 131,
+    "wins": 56,
+    "draws": 36,
+    "losses": 39,
+    "gf_pm": 1.47,
+    "ga_pm": 1.05,
+    "form": 0.09,
+    "last5": "LDDLL"
+  },
+  "Portugal": {
+    "matches": 125,
+    "wins": 80,
+    "draws": 27,
+    "losses": 18,
+    "gf_pm": 2.34,
+    "ga_pm": 0.77,
+    "form": -0.086,
+    "last5": "LWDWW"
+  },
+  "Colombia": {
+    "matches": 114,
+    "wins": 56,
+    "draws": 36,
+    "losses": 22,
+    "gf_pm": 1.53,
+    "ga_pm": 0.86,
+    "form": -0.02,
+    "last5": "WLLWW"
+  },
+  "DR Congo": {
+    "matches": 100,
+    "wins": 40,
+    "draws": 31,
+    "losses": 29,
+    "gf_pm": 1.23,
+    "ga_pm": 0.91,
+    "form": 0.062,
+    "last5": "LWWDL"
+  },
+  "Uzbekistan": {
+    "matches": 105,
+    "wins": 53,
+    "draws": 22,
+    "losses": 30,
+    "gf_pm": 1.48,
+    "ga_pm": 0.87,
+    "form": -0.088,
+    "last5": "DWDLL"
+  },
+  "England": {
+    "matches": 123,
+    "wins": 77,
+    "draws": 25,
+    "losses": 21,
+    "gf_pm": 2.11,
+    "ga_pm": 0.67,
+    "form": 0.004,
+    "last5": "WWDLW"
+  },
+  "Croatia": {
+    "matches": 121,
+    "wins": 62,
+    "draws": 30,
+    "losses": 29,
+    "gf_pm": 1.68,
+    "ga_pm": 1.09,
+    "form": -0.037,
+    "last5": "WWLLW"
+  },
+  "Ghana": {
+    "matches": 98,
+    "wins": 36,
+    "draws": 30,
+    "losses": 32,
+    "gf_pm": 1.26,
+    "ga_pm": 1.05,
+    "form": -0.003,
+    "last5": "LLLLD"
+  },
+  "Panama": {
+    "matches": 141,
+    "wins": 57,
+    "draws": 33,
+    "losses": 51,
+    "gf_pm": 1.4,
+    "ga_pm": 1.35,
+    "form": -0.111,
+    "last5": "DWLWD"
+  }
+}

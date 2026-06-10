@@ -1,0 +1,12 @@
+{
+  "name": "wc2026-predictor-web",
+  "version": "1.0.0",
+  "description": "Web UI for the World Cup 2026 live prediction engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
