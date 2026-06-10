@@ -330,6 +330,62 @@ async function renderEngineLog() {
 setInterval(renderEngineLog, 15000);
 renderEngineLog();
 
+// ---------------- match archive & model scorecard ---------------------------
+function renderHistory() {
+  const hist = CORE.history || [];
+  const acc = CORE.model_accuracy;
+  if (!hist.length) {
+    $('#history').innerHTML =
+      '<p>No completed matches yet — the archive fills automatically every time ' +
+      'results are ingested, storing each final score, the goalscorers, Elo ' +
+      'movement, and what the model predicted before kickoff.</p>';
+    return;
+  }
+  const scorecard = acc
+    ? `<div class="card-grid" style="margin-bottom:1rem">
+        <div class="group-card"><h3>Matches archived</h3><p>${acc.matches}</p></div>
+        <div class="group-card"><h3>Favorite hit rate</h3><p>${pct(acc.favorite_hit_rate)}</p></div>
+        <div class="group-card"><h3>Brier score</h3>
+          <p>${acc.brier_score} <small>(uniform guess = 0.667, lower is better)</small></p></div>
+        <div class="group-card"><h3>Avg P(actual scoreline)</h3><p>${pct(acc.avg_p_actual_score)}</p></div>
+      </div>`
+    : '';
+  const rows = [...hist]
+    .reverse()
+    .map((r) => {
+      const p = r.prediction;
+      const favLabel = { win_a: r.home, draw: 'Draw', win_b: r.away }[p.favorite];
+      const favProb = p.outcome[p.favorite];
+      const hit = p.favorite_hit
+        ? '<span class="flag-boost">HIT</span>'
+        : '<span class="flag-out">MISS</span>';
+      const scorers = r.scorers
+        .map((s) => `${s.player}${s.minute ? ' ' + s.minute : ''}`)
+        .join(', ');
+      const dElta = (t) => (r.elo_after[t] - r.elo_before[t]).toFixed(0);
+      return `<tr>
+        <td>${esc((r.date || '').slice(0, 10))}</td>
+        <td>${esc(r.home)} <strong>${r.score[0]}-${r.score[1]}</strong> ${esc(r.away)}
+          <br><small>${esc(scorers) || 'no scorers recorded'}</small></td>
+        <td>${esc(r.stage)}</td>
+        <td>${esc(favLabel)} (${pct(favProb)}) ${hit}
+          <br><small>xG ${p.xg[0]}-${p.xg[1]}, called ${p.top_score[0]},
+          P(actual score) ${pct(p.p_actual_score)}</small></td>
+        <td class="num">${esc(r.home)} ${dElta(r.home) >= 0 ? '+' : ''}${dElta(r.home)}
+          <br>${esc(r.away)} ${dElta(r.away) >= 0 ? '+' : ''}${dElta(r.away)}</td>
+      </tr>`;
+    })
+    .join('');
+  $('#history').innerHTML =
+    scorecard +
+    `<table>
+      <caption>Every completed match with the model's pre-kickoff prediction</caption>
+      <thead><tr><th scope="col">Date</th><th scope="col">Result &amp; scorers</th>
+      <th scope="col">Stage</th><th scope="col">Model said</th>
+      <th scope="col">Elo shift</th></tr></thead>
+      <tbody>${rows}</tbody></table>`;
+}
+
 // ---------------- boot -------------------------------------------------------
 async function loadCore(bust) {
   CORE = await (await fetch('/api/core' + (bust ? '?t=' + Date.now() : ''))).json();
@@ -338,6 +394,7 @@ async function loadCore(bust) {
   renderGroups();
   renderRadar();
   renderIntel();
+  renderHistory();
   $('#meta').textContent =
     `Engine artifacts generated ${CORE.generated}. ` +
     `Last live result ingest: ${CORE.last_refresh || 'pre-tournament'}.`;

@@ -184,10 +184,12 @@ def cmd_export():
         "top_scorers": top_scorers,
         "intel": intel,
         "schedule": schedule,
+        "history": live.load_history(),
+        "model_accuracy": live.accuracy_summary(live.load_history()),
     }
     (_api_dir() / "core.json").write_text(json.dumps(core))
     print(f"Exported outputs/api/core.json ({len(schedule)} fixtures, "
-          f"{len(odds)} odds rows)")
+          f"{len(odds)} odds rows, {len(core['history'])} archived matches)")
 
 
 def _match_payload(a, b, ctx, intel, city="", day="", score=None):
