@@ -12,25 +12,27 @@
 <header>
   <div class="masthead">
     <h1>World Cup 2026 <span class="accent">Predictor</span></h1>
+    <div class="actions" role="group" aria-label="Engine actions">
+      <button type="button" data-action="refresh">Ingest results</button>
+      <button type="button" data-action="news">News sweep</button>
+      <div class="dropdown" id="sim-dropdown">
+        <button type="button" id="resim-btn" aria-haspopup="true" aria-expanded="false">
+          Re-simulate odds <span aria-hidden="true">&#9662;</span>
+        </button>
+        <ul role="menu" aria-label="Simulation depth">
+          <li role="none"><button role="menuitem" type="button" data-sims="10000">10k — quick look (~30s)</button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="20000">20k — standard (~1 min)</button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="50000">50k — solid (~2 min)</button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="100000">100k — precise (~4 min)</button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="500000">500k — deep (~10-20 min)</button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="1000000">1M — overnight-grade (~30-45 min)</button></li>
+        </ul>
+      </div>
+    </div>
   </div>
   <p class="sub">Live Monte Carlo engine — Elo + 10-year Dixon-Coles model, player
-  scorer probabilities, football-media intelligence.</p>
-  <div class="actions" role="group" aria-label="Engine actions">
-    <button type="button" data-action="refresh">Ingest latest results</button>
-    <button type="button" data-action="news">News sweep</button>
-    <button type="button" data-action="odds">Re-simulate odds</button>
-    <label>Simulations
-      <select id="sims">
-        <option value="10000">10k</option>
-        <option value="20000" selected>20k</option>
-        <option value="50000">50k</option>
-        <option value="100000">100k</option>
-        <option value="500000">500k (~10-20 min)</option>
-        <option value="1000000">1M (~30-45 min)</option>
-      </select>
-    </label>
-    <span id="job-status" role="status" aria-live="polite"></span>
-  </div>
+  scorer probabilities, football-media intelligence.
+  <span id="job-status" role="status" aria-live="polite"></span></p>
 </header>
 
 <nav aria-label="Sections">

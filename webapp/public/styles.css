@@ -97,8 +97,59 @@ header {
   border-bottom: 4px solid;
   border-image: linear-gradient(90deg, #8f7536, #c9a86c, #8f7536) 1;
 }
-.masthead { display: flex; align-items: center; gap: 1rem; }
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 .masthead img { height: 3.6rem; width: auto; }
+.masthead h1 { flex-shrink: 0; }
+.masthead .actions { margin-left: auto; }
+.masthead .actions button {
+  padding: 0.45rem 0.7rem;
+  font-size: 0.72rem;
+}
+
+/* re-simulate dropdown (opens on hover, focus, or click) */
+.dropdown { position: relative; }
+.dropdown ul[role="menu"] {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.2rem);
+  margin: 0;
+  padding: 0.25rem 0;
+  list-style: none;
+  min-width: 16rem;
+  background: #111111;
+  border: 1px solid var(--gold);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+.dropdown.open ul[role="menu"],
+.dropdown:hover ul[role="menu"],
+.dropdown:focus-within ul[role="menu"] { display: block; }
+.dropdown [role="menuitem"] {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  color: #f2efe8;
+  border: none;
+  border-radius: 0;
+  padding: 0.55rem 1rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.dropdown [role="menuitem"]:hover,
+.dropdown [role="menuitem"]:focus-visible {
+  background: var(--gold);
+  color: #14110a;
+  outline: none;
+}
 header h1 {
   margin: 0;
   font-size: clamp(1.4rem, 4vw, 2.1rem);
@@ -162,11 +213,14 @@ select, input[type="date"] {
 }
 header select { background: #1c1c1c; color: #fff; border-color: #3a352a; }
 
-/* ---- nav tabs ------------------------------------------------------------ */
+/* ---- main navigation (sticky) --------------------------------------------- */
 nav {
   background: var(--bg);
   border-bottom: 1px solid var(--border);
   padding: 0 max(1rem, calc(50vw - 35rem));
+  position: sticky;
+  top: 0;
+  z-index: 15;
 }
 [role="tablist"] { display: flex; flex-wrap: wrap; gap: 0.1rem; }
 [role="tab"] {

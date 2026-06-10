@@ -30,24 +30,53 @@ tabs.forEach((tab, i) => {
 });
 
 // ---------------- engine actions -------------------------------------------
-document.querySelectorAll('[data-action]').forEach((btn) => {
-  btn.addEventListener('click', async () => {
-    const action = btn.dataset.action;
-    btn.disabled = true;
-    $('#job-status').textContent = `Running ${action}…`;
-    try {
-      const qs = action === 'odds' ? `?n=${$('#sims').value}` : '';
-      const r = await fetch(`/api/run/${action}${qs}`, { method: 'POST' });
-      if (r.status === 409) {
-        $('#job-status').textContent = 'Engine busy — try again shortly.';
-        return;
-      }
-      await pollUntilIdle(action);
-      await loadCore(true);
-      await loadDay($('#day-picker').value, true);
-    } finally {
-      btn.disabled = false;
+async function runEngineAction(action, btn, sims) {
+  btn.disabled = true;
+  $('#job-status').textContent = `Running ${action}…`;
+  try {
+    const qs = action === 'odds' && sims ? `?n=${sims}` : '';
+    const r = await fetch(`/api/run/${action}${qs}`, { method: 'POST' });
+    if (r.status === 409) {
+      $('#job-status').textContent = 'Engine busy — try again shortly.';
+      return;
     }
+    await pollUntilIdle(action);
+    await loadCore(true);
+    await loadDay($('#day-picker').value, true);
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+document.querySelectorAll('[data-action]').forEach((btn) => {
+  btn.addEventListener('click', () => runEngineAction(btn.dataset.action, btn));
+});
+
+// re-simulate dropdown: opens on hover (CSS) and click; menu items run odds
+const dropdown = $('#sim-dropdown');
+const resimBtn = $('#resim-btn');
+resimBtn.addEventListener('click', () => {
+  const open = dropdown.classList.toggle('open');
+  resimBtn.setAttribute('aria-expanded', String(open));
+});
+document.addEventListener('click', (e) => {
+  if (!dropdown.contains(e.target)) {
+    dropdown.classList.remove('open');
+    resimBtn.setAttribute('aria-expanded', 'false');
+  }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && dropdown.classList.contains('open')) {
+    dropdown.classList.remove('open');
+    resimBtn.setAttribute('aria-expanded', 'false');
+    resimBtn.focus();
+  }
+});
+dropdown.querySelectorAll('[data-sims]').forEach((item) => {
+  item.addEventListener('click', () => {
+    dropdown.classList.remove('open');
+    resimBtn.setAttribute('aria-expanded', 'false');
+    runEngineAction('odds', resimBtn, item.dataset.sims);
   });
 });
 
