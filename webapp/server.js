@@ -24,6 +24,31 @@ const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// ---- public-mode guard (PUBLIC_MODE=1 on the host) -------------------------
+// Engine actions are real CPU: rate-limit strangers and cap simulation depth
+// so one visitor can't pin the box. Local use (no env var) is unthrottled.
+const PUBLIC_MODE = process.env.PUBLIC_MODE === '1';
+const ACTION_COOLDOWN_MS = 90 * 1000;
+const PUBLIC_MAX_SIMS = 100000;
+const lastActionAt = new Map(); // ip -> timestamp
+
+if (PUBLIC_MODE) app.set('trust proxy', 1); // Render sits behind a proxy
+
+function throttled(req, res) {
+  if (!PUBLIC_MODE) return false;
+  const now = Date.now();
+  if (lastActionAt.size > 5000) lastActionAt.clear(); // crude memory bound
+  const last = lastActionAt.get(req.ip) || 0;
+  if (now - last < ACTION_COOLDOWN_MS) {
+    res.status(429).json({
+      error: `public demo: one engine action per ${ACTION_COOLDOWN_MS / 1000}s — try again shortly`,
+    });
+    return true;
+  }
+  lastActionAt.set(req.ip, now);
+  return false;
+}
+
 function validTeams() {
   try {
     const core = JSON.parse(fs.readFileSync(path.join(API_DIR, 'core.json')));
@@ -107,7 +132,7 @@ function actionSteps(action, query) {
   if (action === 'odds') {
     let n = parseInt(query.n, 10);
     if (!Number.isFinite(n)) n = 20000;
-    n = Math.max(1000, Math.min(n, 1000000));
+    n = Math.max(1000, Math.min(n, PUBLIC_MODE ? PUBLIC_MAX_SIMS : 1000000));
     return [['odds', String(n)], ['export']];
   }
   return null;
@@ -117,6 +142,7 @@ app.post('/api/run/:action', async (req, res) => {
   const steps = actionSteps(req.params.action, req.query);
   if (!steps) return res.status(400).json({ error: 'unknown action' });
   if (currentJob) return res.status(409).json({ error: 'engine busy', job: currentJob });
+  if (throttled(req, res)) return;
   res.json({ started: req.params.action });
   for (const args of steps) await runEngine(args, `${req.params.action}: ${args.join(' ')}`);
   // invalidate today's map after new data
@@ -133,6 +159,7 @@ app.post('/api/analyze', async (req, res) => {
   if (!teams.has(home) || !teams.has(away) || home === away) {
     return res.status(400).json({ error: 'pick two distinct valid teams' });
   }
+  if (throttled(req, res)) return;
   const args = ['analyze', home, away, ...(freshNews ? ['fresh'] : [])];
   const code = await runEngine(args, `analyze ${home} vs ${away}${freshNews ? ' +news' : ''}`);
   if (code !== 0) return res.status(500).json({ error: 'engine failed', code });
@@ -143,6 +170,7 @@ app.post('/api/analyze', async (req, res) => {
 app.post('/api/news-team', async (req, res) => {
   const { team } = req.body || {};
   if (!validTeams().has(team)) return res.status(400).json({ error: 'unknown team' });
+  if (throttled(req, res)) return;
   const code = await runEngine(['newsteam', team], `news search: ${team}`);
   if (code !== 0) return res.status(500).json({ error: 'engine failed', code });
   sendJson(res, path.join(API_DIR, 'team_news_latest.json'));

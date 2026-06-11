@@ -77,6 +77,10 @@ Notes for hosted operation:
   (ESPN, idempotent by event id), and stale artifacts regenerate on demand.
 - Big Monte Carlo runs (500k/1M sims) take 10-45 minutes of CPU; on a
   small instance prefer 20k-100k, which converge to within ~0.3pp anyway.
+- **Set `PUBLIC_MODE=1` when hosting publicly** (render.yaml does this):
+  engine actions get a 90s per-IP cooldown and simulations cap at 100k,
+  so strangers can't pin the box. Local use without the env var is
+  unthrottled.
 - The Real Madrid crest watermark is a personal design homage — replace
   `webapp/public/assets/crest.svg` before hosting anything public.
 

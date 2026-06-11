@@ -5,3 +5,6 @@ services:
     plan: starter
     healthCheckPath: /api/status
     autoDeploy: true
+    envVars:
+      - key: PUBLIC_MODE
+        value: "1"
