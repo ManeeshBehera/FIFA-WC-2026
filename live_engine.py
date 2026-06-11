@@ -56,7 +56,7 @@ def _context():
 
 
 def cmd_news():
-    print("Gathering football media (goal.com, OneFootball, ESPN, BBC, Guardian)...")
+    print("Gathering football media (goal.com, OneFootball, ESPN + 10 channel/blog feeds)...")
     articles = news.gather(force=True)
     sq = squads.scrape()
     intel = intelligence.analyze(articles, sq)

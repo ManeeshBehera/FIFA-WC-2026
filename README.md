@@ -37,8 +37,11 @@ Canada, June 11 – July 19, 2026) using the **real final draw**, the
   `watch` mode. State persists in `data/live_state.json`.
 - **News gatherer** ([pipeline/news.py](wc_predictor/pipeline/news.py)):
   polite single-request feeds from goal.com (Google News sitemap, robots
-  allows), OneFootball (daily news sitemap), ESPN news API, BBC and
-  Guardian RSS — ~500 fresh articles per sweep, deduped, 30-min cache.
+  allows), OneFootball (daily news sitemap), ESPN news API, and RSS from
+  BBC, Guardian, Sky Sports, talkSPORT, CBS Sports, Marca, 90min,
+  FourFourTwo, The Sun and Mirror — ~750+ fresh articles per sweep,
+  deduped, 30-min cache. Add your own feeds in data/news_sources.json
+  ([{"source": ..., "url": ...}]); dead sources are skipped gracefully.
   Run with `python live_engine.py news`.
 - **Intelligence layer** ([intelligence.py](wc_predictor/intelligence.py)):
   tags every article with WC teams and squad players, then classifies

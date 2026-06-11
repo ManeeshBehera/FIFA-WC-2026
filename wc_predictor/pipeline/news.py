@@ -4,10 +4,12 @@ Sources (all single-request feeds; no article-page crawling):
   - goal.com Google News sitemap (titles + keywords + timestamps)
   - OneFootball daily news sitemap (English edition)
   - ESPN World Cup news API (JSON, with descriptions)
-  - BBC Sport football RSS
-  - The Guardian football RSS
+  - RSS: BBC, Guardian, Sky Sports, talkSPORT, CBS Sports, Marca (EN),
+    90min, FourFourTwo, The Sun, Mirror
+  - plus any extras in data/news_sources.json: [{"source": .., "url": ..}]
 
 Articles are deduped by normalized title and cached in data/news_articles.json.
+A dead source never kills the sweep; it just logs and moves on.
 """
 
 import json
@@ -27,7 +29,29 @@ ESPN_NEWS = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/new
 RSS_FEEDS = [
     ("bbc", "https://feeds.bbci.co.uk/sport/football/rss.xml"),
     ("guardian", "https://www.theguardian.com/football/rss"),
+    ("sky sports", "https://www.skysports.com/rss/12040"),
+    ("talksport", "https://talksport.com/football/feed/"),
+    ("cbs sports", "https://www.cbssports.com/rss/headlines/soccer/"),
+    ("marca", "https://e00-marca.uecdn.es/rss/en/football.xml"),
+    ("90min", "https://www.90min.com/posts.rss"),
+    ("fourfourtwo", "https://www.fourfourtwo.com/feeds.xml"),
+    ("the sun", "https://www.thesun.co.uk/sport/football/feed/"),
+    ("mirror", "https://www.mirror.co.uk/sport/football/?service=rss"),
 ]
+
+
+def _extra_sources():
+    """User-extensible feeds: data/news_sources.json."""
+    path = DATA_DIR / "news_sources.json"
+    if not path.exists():
+        return []
+    try:
+        extras = json.loads(path.read_text())
+        return [(e["source"], e["url"]) for e in extras
+                if isinstance(e, dict) and e.get("source") and e.get("url")]
+    except Exception as e:
+        print(f"  [news] ignoring malformed news_sources.json: {e}")
+        return []
 
 
 def _get(url):
@@ -105,7 +129,8 @@ def gather(max_age_hours=96, force=False):
         ("goal.com", lambda: _news_sitemap_articles(GOAL_SITEMAP, "goal.com")),
         ("onefootball", lambda: _news_sitemap_articles(ONEFOOTBALL_NEWS, "onefootball")),
         ("espn", _espn_articles),
-    ] + [(src, lambda s=src, u=u: _rss_articles(s, u)) for src, u in RSS_FEEDS]
+    ] + [(src, lambda s=src, u=u: _rss_articles(s, u))
+         for src, u in RSS_FEEDS + _extra_sources()]
 
     articles, seen = [], set()
     cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)

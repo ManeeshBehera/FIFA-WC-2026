@@ -1,179 +1,195 @@
 {
- "generated": "2026-06-10T14:01:44.274188+00:00",
- "n_articles": 509,
+ "generated": "2026-06-11T04:34:08.806559+00:00",
+ "n_articles": 768,
  "teams": {
   "Mexico": {
-   "sentiment": 0.067,
+   "sentiment": 0.229,
    "headlines": [
-    "[goal.com] How to buy Mexico vs South Africa tickets: World Cup ticket prices, Estadio Azteca information & more",
-    "[goal.com] Mexico vs South Africa Predictions, Lineups, Odds & Tips: Hosts to start with a bang",
-    "[goal.com] Mexico FIFA World Cup 2026 TV Schedule: Live streams, channels, full fixture list, dates, kick-off times",
-    "[goal.com] Another shock signing for Wolves! Mexico international Raul Jimenez retraces steps as a free agent & joins Kieran Trippi",
-    "[goal.com] How to buy USA vs Mexico tickets: World Cup ticket prices, venue information & more",
-    "[goal.com] How to get tickets to World Cup 2026 matches in Mexico: Stadium information, Mexico City fixtures, cities & more"
+    "[goal.com] Mexico vs South Africa: Worldwide World Cup broadcasts and how to watch anywhere in the world with a VPN",
+    "[goal.com] Inspiration for Lionel Messi and Cristiano Ronaldo? Roger Milla, Rafa Marquez and Miroslav Klose among aging stars who s",
+    "[goal.com] El Tri legend Raul Jimenez primed for first World Cup start, Brian Gutierrez\u2019s stunning rise and Rafa Marquez\u2019s evolving",
+    "[goal.com] How to get FIFA World Cup 2026 opening match tickets: Mexico City Stadium prices, information & more",
+    "[goal.com] How to buy Mexico World Cup 2026 tickets: Mexican stadium information, team fixtures, prices & more",
+    "[goal.com] How to buy Mexico vs South Africa tickets: World Cup ticket prices, Estadio Azteca information & more"
    ]
   },
   "South Africa": {
-   "sentiment": 0.0,
+   "sentiment": 0.165,
    "headlines": [
-    "[goal.com] How to buy Mexico vs South Africa tickets: World Cup ticket prices, Estadio Azteca information & more",
-    "[goal.com] Mexico vs South Africa Predictions, Lineups, Odds & Tips: Hosts to start with a bang",
+    "[goal.com] Mexico vs South Africa: Worldwide World Cup broadcasts and how to watch anywhere in the world with a VPN",
+    "[goal.com] El Tri legend Raul Jimenez primed for first World Cup start, Brian Gutierrez\u2019s stunning rise and Rafa Marquez\u2019s evolving",
     "[goal.com] How to buy South Africa World Cup 2026 tickets: Dates, fixtures, prices & more",
-    "[espn] Mexico vs. South Africa - Kick-off time, team news, how to watch FIFA World Cup opener",
-    "[espn] South Africa fans back Hugo Broos, but mixed feelings on Bafana's striker selections",
-    "[guardian] Mexico and a history of playing in repeat World Cup opening fixtures | The Knowledge"
+    "[goal.com] Where to watch South Africa in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
+    "[goal.com] How to buy Mexico vs South Africa tickets: World Cup ticket prices, Estadio Azteca information & more",
+    "[goal.com] Mexico vs South Africa Predictions, Lineups, Odds & Tips: Hosts to start with a bang"
    ]
   },
   "South Korea": {
    "sentiment": 0.0,
    "headlines": [
-    "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
-    "[goal.com] How to buy South Korea vs Czech Republic tickets: World Cup ticket prices, Estadio Akron information & more",
+    "[goal.com] South Korea vs Czechia: Worldwide World Cup broadcasts and how to watch anywhere in the world with a VPN",
     "[goal.com] How to buy South Korea World Cup 2026 tickets: Dates, fixtures, prices & more",
     "[goal.com] Where to watch South Korea in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-    "[guardian] Football Daily | It\u2019s World Cup week \u2013 will the hope, memes and dreams be as good as it gets?"
+    "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
+    "[goal.com] How to buy South Korea vs Czech Republic tickets: World Cup ticket prices, Estadio Akron information & more",
+    "[espn] Fourth World Cup still has South Korea captain Son Heung-Min feeling 'like a kid'"
    ]
   },
   "Czechia": {
    "sentiment": 0.0,
    "headlines": [
-    "[goal.com] How to buy South Korea vs Czech Republic tickets: World Cup ticket prices, Estadio Akron information & more",
-    "[goal.com] Where to watch Czech Republic in the 2026 FIFA World Cup today? Next game, kick-off times, TV channels and online live s",
-    "[goal.com] Czech Republic FIFA World Cup 2026 TV Schedule: Live streams, channels, full fixture list, dates, kick-off times",
+    "[goal.com] South Korea vs Czechia: Worldwide World Cup broadcasts and how to watch anywhere in the world with a VPN",
     "[goal.com] How to buy Czech Republic World Cup 2026 tickets: Dates, fixtures, prices & more",
-    "[guardian] Football Daily | It\u2019s World Cup week \u2013 will the hope, memes and dreams be as good as it gets?"
+    "[goal.com] Where to watch Czech Republic in the 2026 FIFA World Cup today? Next game, kick-off times, TV channels and online live s",
+    "[goal.com] How to buy South Korea vs Czech Republic tickets: World Cup ticket prices, Estadio Akron information & more",
+    "[goal.com] Czech Republic FIFA World Cup 2026 TV Schedule: Live streams, channels, full fixture list, dates, kick-off times",
+    "[cbs sports] South Korea vs. Czechia live stream: How to watch FIFA World Cup, predictions, odds and lineups"
    ]
   },
   "Canada": {
    "sentiment": 0.0,
    "headlines": [
+    "[goal.com] Canada vs Bosnia Predictions, Lineups, Odds & Tips: A cagey low-scoring opener for Canucks",
+    "[goal.com] How to get tickets for the 2026 World Cup matches in Canada: Stadium information, match schedules for Toronto and Vancou",
+    "[goal.com] How to buy Canada World Cup 2026 tickets: Dates, fixtures, prices & more",
     "[goal.com] How to buy Canada vs Bosnia and Herzegovina tickets: World Cup ticket prices, BMO Field information & more",
     "[goal.com] Where to watch Canada in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-    "[goal.com] Canada FIFA World Cup 2026 TV Schedule: Live streams, channel guide, full fixture list, dates, kick-off times",
-    "[goal.com] How Vancouver\u2019s street soccer culture is booming before the 2026 World Cup",
-    "[goal.com] Netherlands squad World Cup 2026: Which players have made it to the showpiece in USA, Mexico and Canada?",
-    "[goal.com] Can Canada handle a World Cup soccer boom? Fields, coaches and funding remain major concerns"
+    "[goal.com] Canada FIFA World Cup 2026 TV Schedule: Live streams, channel guide, full fixture list, dates, kick-off times"
    ]
   },
   "Bosnia and Herzegovina": {
    "sentiment": 0.0,
    "headlines": [
-    "[goal.com] How to buy Canada vs Bosnia and Herzegovina tickets: World Cup ticket prices, BMO Field information & more",
     "[goal.com] Where to watch Bosnia and Herzegovina in the 2026 FIFA World Cup today? Next game, start time, TV channels and online li",
+    "[goal.com] Canada vs Bosnia Predictions, Lineups, Odds & Tips: A cagey low-scoring opener for Canucks",
+    "[goal.com] How to buy Bosnia and Herzegovina World Cup 2026 tickets: Dates, fixtures, prices & more",
+    "[goal.com] How to buy Canada vs Bosnia and Herzegovina tickets: World Cup ticket prices, BMO Field information & more",
     "[goal.com] Bosnia and Herzegovina FIFA World Cup 2026 TV Schedule: Live streams, channel guide, full fixture list, dates, kick-off ",
-    "[goal.com] \"Sometimes I worry it's all a sham\": Could a former Bundesliga striker be crafting an unlikely fairy tale after a series",
     "[guardian] \u2018I didn\u2019t think I\u2019d be playing at 40\u2019: Edin Dzeko on defying age to lead his country at the World Cup"
    ]
   },
   "Qatar": {
-   "sentiment": 0.0,
+   "sentiment": -0.165,
    "headlines": [
+    "[goal.com] Where to watch Qatar in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
+    "[goal.com] How to buy Qatar World Cup 2026 tickets: Dates, ticket prices & more",
     "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues",
     "[goal.com] Bar\u00e7a, Qatar, Kuwait, Toulouse: Why Bayer Leverkusen's new head coach evokes memories of Xabi Alonso, despite his unconv",
-    "[goal.com] \"Sometimes I worry it's all a sham\": Could a former Bundesliga striker be crafting an unlikely fairy tale after a series",
-    "[espn] England World Cup quiz: Put your Three Lions knowledge to the test!",
-    "[bbc] When will an African side win the World Cup?"
+    "[bbc] When will an African side win the World Cup?",
+    "[guardian] Football Daily | Desir\u00e9 and Gu\u00e9la Dou\u00e9 lead way at World Cup bursting with brotherly love"
    ]
   },
   "Switzerland": {
    "sentiment": 0.0,
    "headlines": [
-    "[goal.com] \"Sometimes I worry it's all a sham\": Could a former Bundesliga striker be crafting an unlikely fairy tale after a series",
-    "[bbc] Highlights: Switzerland sweep aside Northern Ireland"
+    "[goal.com] Where to watch Switzerland in the 2026 FIFA World Cup today? TV channels and online live streams",
+    "[goal.com] How to buy Switzerland World Cup 2026 tickets: Dates, fixtures, prices & more",
+    "[bbc] Highlights: Switzerland sweep aside Northern Ireland",
+    "[cbs sports] World Cup 2026 odds, futures: Why Switzerland can be this tournament's dark horse contender"
    ]
   },
   "Brazil": {
-   "sentiment": -0.229,
+   "sentiment": -0.197,
    "headlines": [
-    "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
+    "[goal.com] 'My players love the pressure' - Sophia Wilson magic, eight red cards and Brazil bruises: USWNT Stock Up, Stock Down",
+    "[goal.com] 'Vinicius Jr can bring home the World Cup!' - Raphinha backs himself or Real Madrid counterpart to deliver Brazil's sixt",
     "[goal.com] Where to watch Brazil in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-    "[goal.com] EIGHT red cards shown in chaotic USWNT vs Brazil game as officiating branded a 'complete disgrace'",
-    "[goal.com] USWNT player ratings vs Brazil: Sophia Wilson shines again, but yellow and red cards steal the show",
-    "[goal.com] World Cup 2026 Power Rankings: Spain still top despite Lamal Yamal's injury issues, Carlo Ancelotti leads Brazil back in",
-    "[goal.com] Which team will be the 2026 World Cup's biggest disappointment? GOAL writers have their say"
+    "[goal.com] World Cup 2026 kits: Argentina, Brazil, Portugal, England & all the top teams' jerseys revealed",
+    "[goal.com] Roberto Carlos claims Lionel Messi could play on for Argentina until 2030 World Cup & gives verdict on Neymar's return t",
+    "[goal.com] How to buy Brazil World Cup 2026 tickets: Dates, ticket prices & more"
    ]
   },
   "Haiti": {
    "sentiment": 0.0,
    "headlines": [
-    "[bbc] Why this World Cup will showcase 'different Steve Clarke'"
+    "[bbc] Haiti forced to alter kit design before World Cup opener",
+    "[bbc] Why this World Cup will showcase 'different Steve Clarke'",
+    "[talksport] Scotland vs Haiti betting offer: Get 40/1 on Scotland to win on talkSPORT BET",
+    "[talksport] Do Scotland get a bank holiday after Haiti game and when is it?",
+    "[talksport] Scotland v Haiti UK kick-off time and where to watch plus talkSPORT commentary"
    ]
   },
   "Morocco": {
    "sentiment": 0.0,
    "headlines": [
+    "[goal.com] 'Vinicius Jr can bring home the World Cup!' - Raphinha backs himself or Real Madrid counterpart to deliver Brazil's sixt",
+    "[goal.com] Where to watch Morocco in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues",
-    "[espn] Morocco then everyone else - Ranking Africa's 10 FIFA World Cup teams",
     "[bbc] When will an African side win the World Cup?"
    ]
   },
   "Scotland": {
-   "sentiment": -0.197,
+   "sentiment": 0.229,
    "headlines": [
+    "[goal.com] Where to watch Scotland in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] 'Diogo will be with you' - Jota's widow Rute Cardoso writes emotional letter to Andy Robertson ahead of World Cup appear",
-    "[goal.com] Steve Clarke labelled 'unprofessional' by angry Norway manager but Scottish FA hits back after pre-World Cup friendly ca",
-    "[espn] What 2026 World Cup stadiums will host England and Scotland? Venue guide",
-    "[espn] Scotland's route through 2026 World Cup knockouts: France? Potential England tie? Can Steve Clarke's men spring a surpri",
-    "[espn] Scotland at the 2026 World Cup: Schedule, results, how to watch, news, analysis, injuries, more",
-    "[espn] Meet Scotland's 2026 World Cup squad: All 26 players picked by Steve Clarke and why"
+    "[bbc] Scotland's Super Mario and social butterfly who emerged from Man Utd cocoon",
+    "[bbc] Who will win the World Cup? BBC pundits make their predictions",
+    "[bbc] Set up BBC Sport website and app to show you more Scotland this World Cup",
+    "[bbc] Haiti forced to alter kit design before World Cup opener"
    ]
   },
   "United States": {
-   "sentiment": -0.133,
+   "sentiment": -0.812,
    "headlines": [
-    "[goal.com] How to get tickets to watch Christian Pulisic at the World Cup 2026: USA World Cup tickets, information & more",
-    "[goal.com] How to buy United States World Cup 2026 tickets: Dates, fixtures, prices & more",
-    "[goal.com] Where to watch USMNT in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-    "[goal.com] How to buy USA vs Paraguay tickets: World Cup ticket prices, SoFi Stadium information & more",
-    "[goal.com] America expects - but are Mauricio Pochettino and the USMNT's 'Golden Generation' ready to meet their World Cup moment?",
-    "[goal.com] EIGHT red cards shown in chaotic USWNT vs Brazil game as officiating branded a 'complete disgrace'"
+    "[goal.com] 'I'm ready' - Chris Richards pushes through ankle injury as USMNT's most important player eyes World Cup moment",
+    "[goal.com] 'My players love the pressure' - Sophia Wilson magic, eight red cards and Brazil bruises: USWNT Stock Up, Stock Down",
+    "[goal.com] 'Chill, relax' - Gianni Infantino responds to Somalian referee being denied USA entry for World Cup",
+    "[goal.com] 'There is no scandal' - Fabio Cannavaro denies 'undignified' USA security checks after video of Uzbekistan players being",
+    "[goal.com] 'How I want to be remembered' - Screaming fans, Barry Sanders and no expectations: Inside the 1994 USMNT World Cup run t",
+    "[goal.com] USWNT 2026 TV schedule: Fixtures, results, live stream & how to watch the U.S. women's team"
    ]
   },
   "Australia": {
    "sentiment": 0.0,
    "headlines": [
+    "[goal.com] Where to watch Australia in the 2026 FIFA World Cup today? TV channels and online live streams",
     "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
     "[goal.com] How to buy Australia World Cup 2026 tickets: Dates, fixtures, prices & more",
-    "[goal.com] Where to watch Australia in the 2026 FIFA World Cup today? TV channels and online live streams",
     "[goal.com] Roy Keane announces he's moving to Australia if England win World Cup",
     "[goal.com] Australia vs Turkiye FIFA World Cup 2026 Preview: Everything you need to know",
-    "[guardian] Mo Tour\u00e9: Australia\u2019s Ter-Mo-Nator who just wants to be seen as a \u2018good person\u2019"
+    "[espn] FIFA World Cup 2026: How to watch the Socceroos, fixtures, results, all you need to know"
    ]
   },
   "Paraguay": {
-   "sentiment": 0.165,
+   "sentiment": -0.033,
    "headlines": [
+    "[goal.com] 'I'm ready' - Chris Richards pushes through ankle injury as USMNT's most important player eyes World Cup moment",
+    "[goal.com] 'How I want to be remembered' - Screaming fans, Barry Sanders and no expectations: Inside the 1994 USMNT World Cup run t",
+    "[goal.com] Where to watch Paraguay in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] How to buy USA vs Paraguay tickets: World Cup ticket prices, SoFi Stadium information & more",
     "[goal.com] How to buy Paraguay World Cup 2026 tickets: Dates, fixtures, prices & more",
-    "[goal.com] America expects - but are Mauricio Pochettino and the USMNT's 'Golden Generation' ready to meet their World Cup moment?",
-    "[goal.com] Paraguay FIFA World Cup 2026 TV Schedule: Live streams, channels, full fixture list, dates, kick-off times",
-    "[goal.com] USMNT World Cup notebook: Gio Reyna, Matt Freese push for roles as starting XI questions remain",
-    "[goal.com] \u2018It gives people pride\u2019 - A balloon, a military base and a displaced club: How Irvine became the USMNT\u2019s unlikely World "
+    "[goal.com] America expects - but are Mauricio Pochettino and the USMNT's 'Golden Generation' ready to meet their World Cup moment?"
    ]
   },
   "Turkey": {
    "sentiment": 0.0,
    "headlines": [
+    "[goal.com] Where to watch Turkiye in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] How to buy Turkey World Cup 2026 tickets: Dates, fixtures, prices & more",
     "[goal.com] Australia vs Turkiye FIFA World Cup 2026 Preview: Everything you need to know",
-    "[onefootball] World Cup 2026 dark horses power rankings: Japan, Colombia, Turkey\u2026"
+    "[onefootball] World Cup 2026 dark horses power rankings: Japan, Colombia, Turkey\u2026",
+    "[espn] Socceroos concern as striker Mohamed Tour\u00e9 misses training",
+    "[fourfourtwo] Quickfire Quiz 138: Can you answer 10 questions in 90 seconds?"
    ]
   },
   "Germany": {
-   "sentiment": 0.067,
+   "sentiment": -0.033,
    "headlines": [
-    "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
     "[goal.com] Where to watch Germany in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
+    "[goal.com] Germany's 2026 World Cup knockout path: potential opponents after the group stage and the route to the final",
+    "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
     "[goal.com] World Cup 2026 Power Rankings: Spain still top despite Lamal Yamal's injury issues, Carlo Ancelotti leads Brazil back in",
     "[goal.com] Which team will be the 2026 World Cup's biggest disappointment? GOAL writers have their say",
-    "[goal.com] adidas rewinds to 90's with stunning World Cup 2026 goalkeeper kits",
-    "[goal.com] \"Difficult to communicate with!\" Thomas M\u00fcller criticises national team manager Julian Nagelsmann ahead of the World Cup"
+    "[goal.com] adidas rewinds to 90's with stunning World Cup 2026 goalkeeper kits"
    ]
   },
   "Curacao": {
    "sentiment": 0.0,
    "headlines": [
-    "[goal.com] Where to watch Curacao in the 2026 FIFA World Cup today? Next game, kick-off times, TV channels and online live streams"
+    "[goal.com] Where to watch Curacao in the 2026 FIFA World Cup today? Next game, kick-off times, TV channels and online live streams",
+    "[talksport] Has Sheffield United star Tahith Chong always represented Curacao?",
+    "[fourfourtwo] Curacao, the tiny nation ready to paint the World Cup blue"
    ]
   },
   "Ecuador": {
@@ -190,25 +206,25 @@
    ]
   },
   "Netherlands": {
-   "sentiment": -0.291,
+   "sentiment": -0.38,
    "headlines": [
+    "[goal.com] 'There is no scandal' - Fabio Cannavaro denies 'undignified' USA security checks after video of Uzbekistan players being",
+    "[goal.com] Virgil van Dijk and Ronald Koeman remain defiant ahead of Japan clash as Netherlands' nerves build after concerning Uzbe",
+    "[goal.com] Where to watch Netherlands in the 2026 FIFA World Cup today? Next game, live stream, TV channels and online live streams",
     "[goal.com] World Cup on Ziggo GO: How to watch and live stream FIFA World Cup 2026 in the Netherlands",
     "[goal.com] World Cup on NOS: How to watch and live stream FIFA World Cup 2026 in the Netherlands",
-    "[goal.com] Which team will be the 2026 World Cup's biggest disappointment? GOAL writers have their say",
-    "[goal.com] The cheapest World Cup tickets 2026: A breakdown of average prices including Netherlands, Algeria, group stages & more",
-    "[goal.com] Netherlands vs Japan FIFA World Cup 2026 Preview: Everything you need to know",
-    "[goal.com] VIDEO: Shocked Italy legend Fabio Cannavaro is stopped by security in USA & has his bag searched ahead of Uzbekistan's f"
+    "[goal.com] Which team will be the 2026 World Cup's biggest disappointment? GOAL writers have their say"
    ]
   },
   "Japan": {
    "sentiment": 0.067,
    "headlines": [
+    "[goal.com] Virgil van Dijk and Ronald Koeman remain defiant ahead of Japan clash as Netherlands' nerves build after concerning Uzbe",
+    "[goal.com] Where to watch Japan in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
     "[goal.com] Netherlands vs Japan FIFA World Cup 2026 Preview: Everything you need to know",
     "[goal.com] adidas rewinds to 90's with stunning World Cup 2026 goalkeeper kits",
-    "[goal.com] Netherlands dealt huge World Cup blow as Jurrien Timber ruled out with injury",
-    "[onefootball] Japan \u2013 World Cup Profile",
-    "[onefootball] World Cup 2026 dark horses power rankings: Japan, Colombia, Turkey\u2026"
+    "[onefootball] Japan \u2013 World Cup Profile"
    ]
   },
   "Sweden": {
@@ -230,6 +246,7 @@
    "headlines": [
     "[goal.com] Where to watch Belgium in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] Belgium vs Egypt FIFA World Cup 2026 Preview: Everything you need to know",
+    "[espn] J\u00e9r\u00e9my Doku eases Belgium concerns after training scare",
     "[bbc] Watch: Weir scores four as Scotland beat Israel to win group"
    ]
   },
@@ -238,33 +255,37 @@
    "headlines": [
     "[goal.com] Where to watch Egypt in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues",
-    "[goal.com] Belgium vs Egypt FIFA World Cup 2026 Preview: Everything you need to know"
+    "[goal.com] Belgium vs Egypt FIFA World Cup 2026 Preview: Everything you need to know",
+    "[espn] J\u00e9r\u00e9my Doku eases Belgium concerns after training scare"
    ]
   },
   "Iran": {
-   "sentiment": -0.165,
+   "sentiment": -0.261,
    "headlines": [
     "[goal.com] Iran vs New Zealand FIFA World Cup 2026 Preview: Everything you need to know",
     "[goal.com] Ticket row ahead of the World Cup! US cracks down on Iranian fans",
+    "[espn] Iran's Jahanbakhsh: We're in the U.S. to call for peace and unity",
     "[espn] Iran players: U.S. visa policies creating World Cup 'tension'",
-    "[bbc] The flag Iranians are not allowed to wave at the World Cup"
+    "[guardian] Gianni Infantino tells football fans to \u2018chill\u2019 in response to Fifa\u2019s critics",
+    "[fourfourtwo] Iran furious at integrity of World Cup 2026 planning after latest allocation withdrawal"
    ]
   },
   "New Zealand": {
    "sentiment": 0.0,
    "headlines": [
-    "[goal.com] Iran vs New Zealand FIFA World Cup 2026 Preview: Everything you need to know"
+    "[goal.com] Iran vs New Zealand FIFA World Cup 2026 Preview: Everything you need to know",
+    "[the sun] England player ratings: Barcelona transfer inspires Anthony Gordon to stellar performance but Noni Madueke all at sea"
    ]
   },
   "Spain": {
-   "sentiment": -0.033,
+   "sentiment": -0.38,
    "headlines": [
+    "[goal.com] Spain waiting on 'best time' for Lamine Yamal return as director allays Barcelona fears over injured star",
     "[goal.com] Sarina Wiegman's ideal Women's World Cup preparation goes out the window! Winners and losers after England miss out on a",
     "[goal.com] World Cup 2026 Power Rankings: Spain still top despite Lamal Yamal's injury issues, Carlo Ancelotti leads Brazil back in",
     "[goal.com] Why Barcelona are \u2018worried about Lamine Yamal\u2019 as teenage wonderkid prepares for a shot at World Cup glory with Spain",
     "[goal.com] Which team will be the 2026 World Cup's biggest disappointment? GOAL writers have their say",
-    "[goal.com] Spain vs Cape Verde FIFA World Cup 2026 Preview: Everything you need to know",
-    "[goal.com] adidas rewinds to 90's with stunning World Cup 2026 goalkeeper kits"
+    "[goal.com] Spain vs Cape Verde FIFA World Cup 2026 Preview: Everything you need to know"
    ]
   },
   "Cape Verde": {
@@ -272,8 +293,7 @@
    "headlines": [
     "[goal.com] Where to watch Cape Verde in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] Why Barcelona are \u2018worried about Lamine Yamal\u2019 as teenage wonderkid prepares for a shot at World Cup glory with Spain",
-    "[goal.com] Spain vs Cape Verde FIFA World Cup 2026 Preview: Everything you need to know",
-    "[guardian] Football Daily | It\u2019s World Cup week \u2013 will the hope, memes and dreams be as good as it gets?"
+    "[goal.com] Spain vs Cape Verde FIFA World Cup 2026 Preview: Everything you need to know"
    ]
   },
   "Saudi Arabia": {
@@ -281,7 +301,8 @@
    "headlines": [
     "[goal.com] A golden opportunity missed and a yellow card within two minutes: the World Cup dress rehearsal turns into a nightmare f",
     "[goal.com] Saudi Arabia vs Uruguay FIFA World Cup 2026 Preview: Everything you need to know",
-    "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues"
+    "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues",
+    "[the sun] Ivan Toney claims \u2018aura and swagger\u2019 got him into England squad with World Cup chances written off after Saudi move"
    ]
   },
   "Uruguay": {
@@ -292,7 +313,7 @@
    ]
   },
   "France": {
-   "sentiment": -0.033,
+   "sentiment": 0.067,
    "headlines": [
     "[goal.com] Arsene Wenger claims Kylian Mbappe has been unfairly made a 'scapegoat' at Real Madrid & backs 'exceptional' France star",
     "[goal.com] Where to watch France in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
@@ -319,8 +340,8 @@
     "[goal.com] How to buy Norway vs France tickets: World Cup ticket prices, Gillette Stadium information & more",
     "[goal.com] How to buy Norway vs Senegal tickets: World Cup ticket prices, MetLife Stadium information & more",
     "[goal.com] How to buy Iraq vs Norway tickets: World Cup ticket prices, Gillette Stadium information & more",
-    "[goal.com] Steve Clarke labelled 'unprofessional' by angry Norway manager but Scottish FA hits back after pre-World Cup friendly ca",
-    "[bbc] Norway dress up as Vikings for World Cup"
+    "[bbc] Norway dress up as Vikings for World Cup",
+    "[bbc] Born in Leeds, crafted in Norway: How Haaland became nation's superstar"
    ]
   },
   "Senegal": {
@@ -330,30 +351,29 @@
     "[goal.com] France vs Senegal FIFA World Cup 2026 Preview: Everything you need to know",
     "[goal.com] How to buy Senegal vs Iraq tickets: World Cup ticket prices, BMO Field information & more",
     "[goal.com] How to buy Norway vs Senegal tickets: World Cup ticket prices, MetLife Stadium information & more",
-    "[goal.com] How to buy France vs Senegal tickets: World Cup ticket prices, MetLife Stadium information & more",
     "[onefootball] Senegal and Uzbekistan squads face intensive searches on United States arrival before World Cup"
    ]
   },
   "Argentina": {
-   "sentiment": -0.462,
+   "sentiment": -0.436,
    "headlines": [
+    "[goal.com] World Cup 2026 kits: Argentina, Brazil, Portugal, England & all the top teams' jerseys revealed",
+    "[goal.com] Roberto Carlos claims Lionel Messi could play on for Argentina until 2030 World Cup & gives verdict on Neymar's return t",
     "[goal.com] Women's World Cup 2027 qualified teams: Full list of nations who will play tournament in Brazil",
     "[goal.com] Where to watch Argentina in the 2026 FIFA World Cup today? TV channels and online live streams",
     "[goal.com] Emi Martinez verbally agrees Juventus transfer as Aston Villa & Argentina goalkeeper prepared to reduce salary",
-    "[goal.com] 'Very excited' Lionel Messi talks up Argentina's chances of defending World Cup crown after scoring record-breaking goal",
-    "[goal.com] VIDEO: Lionel Messi the super-sub! Argentina captain scores seconds after coming on in 3-0 win over Iceland to allay Wor",
-    "[goal.com] Argentina vs Algeria FIFA World Cup 2026 Preview: Everything you need to know"
+    "[goal.com] 'Very excited' Lionel Messi talks up Argentina's chances of defending World Cup crown after scoring record-breaking goal"
    ]
   },
   "Algeria": {
    "sentiment": -0.261,
    "headlines": [
+    "[goal.com] Virgil van Dijk and Ronald Koeman remain defiant ahead of Japan clash as Netherlands' nerves build after concerning Uzbe",
     "[goal.com] Where to watch Algeria in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] Argentina vs Algeria FIFA World Cup 2026 Preview: Everything you need to know",
     "[goal.com] Lionel Messi fitness boost! Argentina boss delivers update on GOAT as 2026 World Cup countdown continues",
     "[goal.com] The cheapest World Cup tickets 2026: A breakdown of average prices including Netherlands, Algeria, group stages & more",
-    "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues",
-    "[goal.com] 'We're going to beat Lionel Messi!' - Algeria star ready for Argentina's 'provoking' tactics and targets major scalp in "
+    "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues"
    ]
   },
   "Austria": {
@@ -364,7 +384,7 @@
     "[goal.com] How to buy Argentina vs Austria tickets: World Cup ticket prices, AT&T Stadium information & more",
     "[goal.com] How to buy Algeria vs Austria tickets: World Cup ticket prices, GEHA Field at Arrowhead information & more",
     "[goal.com] How to buy Austria vs Jordan tickets: World Cup ticket prices, Levi\u2019s Stadium information & more",
-    "[goal.com] How to buy Austria World Cup 2026 tickets: Dates, group information, prices & more"
+    "[talksport] Why is ex-Chelsea ace Carney Chukwuemeka playing for Austria?"
    ]
   },
   "Jordan": {
@@ -374,19 +394,19 @@
     "[goal.com] A complete guide to the World Cup 2026 for Arab fans: Tickets, group information and North America venues",
     "[goal.com] How to buy Jordan vs Algeria tickets: World Cup ticket prices, Levi's Stadium information & more",
     "[goal.com] How to buy Austria vs Jordan tickets: World Cup ticket prices, Levi\u2019s Stadium information & more",
-    "[goal.com] How to buy Jordan World Cup 2026 tickets: Dates, fixtures, prices & more",
-    "[bbc] World Cup 1982: Stein, Narey, Brazil & being a cartoon character"
+    "[bbc] World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
+    "[guardian] \u2018It was madness in Baghdad\u2019: Ren\u00e9 Meulensteen on coaching Iraq and helping Ronaldo"
    ]
   },
   "Portugal": {
-   "sentiment": -0.1,
+   "sentiment": -0.291,
    "headlines": [
+    "[goal.com] Jose Mourinho to snub welcoming ceremony and press conference as he gets to work despite Real Madrid contract not starti",
+    "[goal.com] Inspiration for Lionel Messi and Cristiano Ronaldo? Roger Milla, Rafa Marquez and Miroslav Klose among aging stars who s",
+    "[goal.com] World Cup 2026 kits: Argentina, Brazil, Portugal, England & all the top teams' jerseys revealed",
+    "[goal.com] New 2026-27 football kits: Chelsea, Man Utd, Arsenal, Real Madrid & all the top teams' jerseys revealed",
     "[goal.com] 'An honour and a privilege' - Jose Mourinho pens emotional Benfica farewell message ahead of Real Madrid homecoming",
-    "[goal.com] \u2018Age isn\u2019t a problem\u2019 for Cristiano Ronaldo as 41-year-old GOAT is backed by former Portugal team-mate to \u2018make a differ",
-    "[goal.com] Portugal vs DR Congo FIFA World Cup 2026 Preview: Everything you need to know",
-    "[goal.com] Portugal vs Nigeria: Worldwide Friendly broadcasts and how to watch anywhere in the world with a VPN",
-    "[goal.com] Benfica confirm Jose Mourinho's exit as Marco Silva agrees to replace Real Madrid-bound boss at Estadio da Luz",
-    "[goal.com] Cristiano Ronaldo's last Portugal game on home soil? Roberto Martinez explains meaning behind Nigeria friendly ahead of "
+    "[goal.com] \u2018Age isn\u2019t a problem\u2019 for Cristiano Ronaldo as 41-year-old GOAT is backed by former Portugal team-mate to \u2018make a differ"
    ]
   },
   "Colombia": {
@@ -395,7 +415,6 @@
     "[goal.com] Where to watch Colombia in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
     "[goal.com] How to buy Colombia vs DR Congo tickets: World Cup ticket prices, Estadio Akron information & more",
     "[goal.com] How to buy Uzbekistan vs Colombia tickets: World Cup ticket prices, Estadio Azteca information & more",
-    "[goal.com] How to buy Colombia World Cup 2026 tickets: Dates, fixtures, prices & more",
     "[onefootball] World Cup 2026 dark horses power rankings: Japan, Colombia, Turkey\u2026",
     "[onefootball] Jhon Arias hits brace in Colombia win, Palmeiras to have seven at World Cup"
    ]
@@ -414,34 +433,34 @@
   "Uzbekistan": {
    "sentiment": -0.197,
    "headlines": [
+    "[goal.com] 'There is no scandal' - Fabio Cannavaro denies 'undignified' USA security checks after video of Uzbekistan players being",
+    "[goal.com] Virgil van Dijk and Ronald Koeman remain defiant ahead of Japan clash as Netherlands' nerves build after concerning Uzbe",
     "[goal.com] VIDEO: Shocked Italy legend Fabio Cannavaro is stopped by security in USA & has his bag searched ahead of Uzbekistan's f",
     "[goal.com] How to buy Portugal vs Uzbekistan tickets: World Cup ticket prices, NRG Stadium information & more",
     "[goal.com] How to buy Uzbekistan vs Colombia tickets: World Cup ticket prices, Estadio Azteca information & more",
-    "[goal.com] Liverpool winger Cody Gakpo bags two goals as 10-man Netherlands suffer major injury scare in World Cup warm-up win over",
-    "[goal.com] Netherlands dealt huge World Cup blow as Jurrien Timber ruled out with injury",
-    "[goal.com] How to buy Uzbekistan World Cup 2026 tickets: Dates, fixtures, prices & more"
+    "[goal.com] Liverpool winger Cody Gakpo bags two goals as 10-man Netherlands suffer major injury scare in World Cup warm-up win over"
    ]
   },
   "England": {
-   "sentiment": -0.537,
+   "sentiment": -0.261,
    "headlines": [
-    "[goal.com] England women's all-time top goalscorers: Ellen White, Beth Mead, Georgia Stanway & the Lionesses' best finishers",
-    "[goal.com] Sarina Wiegman's ideal Women's World Cup preparation goes out the window! Winners and losers after England miss out on a",
-    "[goal.com] Where to watch England in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-    "[goal.com] Arsenal target Morgan Rogers speaks out on transfer talk & claims he and Jude Bellingham 'can definitely play together' ",
-    "[goal.com] How far will England go at the 2026 World Cup? GOAL writers have their say",
-    "[goal.com] 'Shouldn't be a debate!' - Jude Bellingham is England's 'best player' and 'has to start' at 2026 World Cup, insists Mica"
+    "[goal.com] England player ratings vs Costa Rica: Watch out, Marcus Rashford! Electric Anthony Gordon stakes World Cup claim as Thre",
+    "[goal.com] 'A taste of what can happen' - Thomas Tuchel sees upside of delayed England friendly and warns it's 'no excuse' for slip",
+    "[goal.com] Game delayed! England's last World Cup warm-up clash pushed back as Florida storm floods pitch",
+    "[goal.com] Jude Bellingham on the bench? Jamie Carragher expects Morgan Rogers to start ahead of Real Madrid man but warns Thomas T",
+    "[goal.com] World Cup 2026 kits: Argentina, Brazil, Portugal, England & all the top teams' jerseys revealed",
+    "[goal.com] England women's all-time top goalscorers: Ellen White, Beth Mead, Georgia Stanway & the Lionesses' best finishers"
    ]
   },
   "Croatia": {
    "sentiment": -0.261,
    "headlines": [
+    "[goal.com] 'A taste of what can happen' - Thomas Tuchel sees upside of delayed England friendly and warns it's 'no excuse' for slip",
     "[goal.com] Where to watch Croatia in the 2026 FIFA World Cup today? Next game, kick-off times, TV channels and online live streams",
     "[goal.com] England vs Croatia FIFA World Cup 2026 Preview: Everything you need to know",
     "[goal.com] Is Bukayo Saka World Cup-ready for England? Thomas Tuchel delivers \u2018take care\u2019 update on Arsenal winger\u2019s fitness",
     "[goal.com] Harry Kane sees \u2018best opportunity\u2019 to claim World Cup crown - which would put him in contention for Ballon d\u2019Or recognit",
-    "[goal.com] Why Declan Rice is \u2018sceptical\u2019 about one area of Kobbie Mainoo\u2019s game - with Man Utd youngster hoping to join Arsenal ti",
-    "[goal.com] Which team will be the 2026 World Cup's biggest disappointment? GOAL writers have their say"
+    "[goal.com] Why Declan Rice is \u2018sceptical\u2019 about one area of Kobbie Mainoo\u2019s game - with Man Utd youngster hoping to join Arsenal ti"
    ]
   },
   "Ghana": {
@@ -451,7 +470,8 @@
     "[goal.com] How to buy Croatia vs Ghana tickets: World Cup ticket prices, Lincoln Financial Field information & more",
     "[goal.com] How to buy England vs Ghana tickets: World Cup ticket prices, Gillette Stadium information & more",
     "[goal.com] How to buy Ghana vs Panama tickets: World Cup ticket prices, BMO Field information & more",
-    "[goal.com] How to buy Ghana World Cup 2026 tickets: Dates, fixtures, prices & more"
+    "[espn] Antoine Semenyo locks in on ESPN's Ball Knowledge quiz",
+    "[guardian] Ghana World Cup 2026 team guide"
    ]
   },
   "Panama": {
@@ -459,8 +479,7 @@
    "headlines": [
     "[goal.com] How to buy Panama vs England tickets: World Cup ticket prices, MetLife Stadium information & more",
     "[goal.com] How to buy Ghana vs Panama tickets: World Cup ticket prices, BMO Field information & more",
-    "[goal.com] How to buy Panama vs Croatia tickets: World Cup ticket prices, BMO Field information & more",
-    "[goal.com] How to buy Panama World Cup 2026 tickets: Dates, fixtures, prices & more"
+    "[goal.com] How to buy Panama vs Croatia tickets: World Cup ticket prices, BMO Field information & more"
    ]
   }
  },
@@ -475,34 +494,46 @@
     "evidence": "Will Neymar be ready for World Cup? Brazil provide injury update"
    }
   },
+  "United States": {
+   "Chris Richards": {
+    "status": "doubt",
+    "evidence": "'I'm ready' - Chris Richards pushes through ankle injury as USMNT's most important player eyes World Cup moment"
+   }
+  },
   "Netherlands": {
    "Cody Gakpo": {
     "status": "doubt",
     "evidence": "Liverpool winger Cody Gakpo bags two goals as 10-man Netherlands suffer major injury scare in World Cup warm-up win over Uzbekistan"
    },
    "Lutsharel Geertruida": {
-    "status": "out",
-    "evidence": "Netherlands dealt huge World Cup blow as Jurrien Timber ruled out with injury"
+    "status": "boost",
+    "evidence": "Netherlands\u2019 Jurrien Timber out of World Cup through injury as Lutsharel Geertruida called up"
    },
-   "Quinten Timber": {
-    "status": "out",
-    "evidence": "Netherlands dealt huge World Cup blow as Jurrien Timber ruled out with injury"
+   "Bart Verbruggen": {
+    "status": "doubt",
+    "evidence": "Netherlands keeper Verbruggen a doubt for World Cup opener"
    }
   },
   "Spain": {
    "Lamine Yamal": {
     "status": "doubt",
-    "evidence": "World Cup 2026 Power Rankings: Spain still top despite Lamal Yamal's injury issues, Carlo Ancelotti leads Brazil back into the top 10 while "
+    "evidence": "Spain waiting on 'best time' for Lamine Yamal return as director allays Barcelona fears over injured star"
    },
-   "Rodri": {
-    "status": "doubt",
-    "evidence": "\u2018I want this Gavi\u2019 - Spain boss has no issue with combative Barcelona star kicking his own team-mates after seeing training ground tackle sp"
+   "Marc Cucurella": {
+    "status": "boost",
+    "evidence": "Chelsea's dream defensive makeover as \u00a335m star signs and Marc Cucurella replaced"
    }
   },
   "Argentina": {
    "Lionel Messi": {
+    "status": "doubt",
+    "evidence": "World Cup 2026 injury tracker: Latest news on Lionel Messi, Lamine Yamal and Neymar"
+   }
+  },
+  "Portugal": {
+   "Vitinha": {
     "status": "boost",
-    "evidence": "Lionel Messi fitness boost! Argentina boss delivers update on GOAT as 2026 World Cup countdown continues"
+    "evidence": "Portugal vs Nigeria betting tips, predictions and price boost: Vitinha and Neves to shine for Martinez&#8217; men?"
    }
   },
   "England": {
@@ -513,6 +544,10 @@
    "Elliot Anderson": {
     "status": "doubt",
     "evidence": "Will anybody pay \u00a3115m for Elliot Anderson? Ex-Man City star doubts Premier League suitors will bow to Nottingham Forest\u2019s transfer demands"
+   },
+   "Bukayo Saka": {
+    "status": "doubt",
+    "evidence": "Thomas Tuchel told to remove Bukayo Saka from England World Cup squad over injury concerns"
    }
   }
  }
