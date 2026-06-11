@@ -111,16 +111,34 @@ def cmd_matchday(day=None):
     print(f"\nFull maps written to outputs/match_maps/")
 
 
-def cmd_odds(n_sims=50_000):
+KLEMENT_SHRINK = 0.15      # pull toward socioeconomic fundamentals
+KLEMENT_SIGMA = 45.0       # per-tournament Elo uncertainty ("luck" element)
+
+
+def cmd_odds(n_sims=50_000, pure=False):
+    """Tournament Monte Carlo. Default applies the Klement structural layer
+    (fundamentals shrink + strength uncertainty); pass 'pure' to disable."""
     from wc_predictor.simulate import run
+    from wc_predictor import structural
     state = live.load_state()
     params = match_map.load_params()
     match_model.configure(params)
-    teams = {n: dataclasses.replace(t, elo=state["elo"][n]) for n, t in TEAMS.items()}
-    df, top_finals = run(n_sims=n_sims, teams=teams)
+    elo = dict(state["elo"])
+    sigma = 0.0
+    if not pure:
+        elo, diag = structural.klement_adjust(elo, shrink=KLEMENT_SHRINK)
+        sigma = KLEMENT_SIGMA
+        print(f"Klement layer: socio fit R²={diag['r_squared']}, "
+              f"shrink {KLEMENT_SHRINK:.0%}, strength sigma ±{sigma:.0f} Elo")
+        over = ", ".join(f"{n} +{v}" for n, v in diag["overperformers"][:3])
+        under = ", ".join(f"{n} {v}" for n, v in diag["underperformers"][:3])
+        print(f"  above fundamentals: {over}")
+        print(f"  below fundamentals: {under}")
+    teams = {n: dataclasses.replace(t, elo=elo[n]) for n, t in TEAMS.items()}
+    df, top_finals = run(n_sims=n_sims, teams=teams, strength_sigma=sigma)
     df.to_csv(OUT / "predictions_live.csv", index=False)
-    print(f"Live title odds ({n_sims:,} sims, ratings as of "
-          f"{state.get('last_refresh') or 'pre-tournament'}):")
+    print(f"Live title odds ({n_sims:,} sims{'' if pure else ', Klement layer on'}, "
+          f"ratings as of {state.get('last_refresh') or 'pre-tournament'}):")
     for i, r in df.head(12).iterrows():
         print(f"{i + 1:>2}. {r['team']:<15} {r['Champion']:>6.1%}  "
               f"(final {r['Reach Final']:.1%})")
@@ -328,7 +346,8 @@ if __name__ == "__main__":
         "refresh": lambda: cmd_refresh(),
         "news": lambda: cmd_news(),
         "matchday": lambda: cmd_matchday(arg),
-        "odds": lambda: cmd_odds(int(arg) if arg else 50_000),
+        "odds": lambda: cmd_odds(int(arg) if arg else 50_000,
+                                 pure=("pure" in sys.argv[3:4])),
         "scan": lambda: cmd_scan(),
         "watch": lambda: cmd_watch(int(arg) if arg else 5),
         "export": lambda: cmd_export(),

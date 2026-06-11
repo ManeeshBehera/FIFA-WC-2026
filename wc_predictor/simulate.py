@@ -20,15 +20,30 @@ STAGE_LABELS = {
 }
 
 
-def run(n_sims=50_000, seed=2026, teams=None):
+def run(n_sims=50_000, seed=2026, teams=None, strength_sigma=0.0):
+    """Monte Carlo over the tournament.
+
+    strength_sigma > 0 adds the Klement 'luck' element: each simulated
+    tournament redraws every team's Elo from N(elo, sigma), so rating
+    uncertainty (not just match randomness) widens the outcome spread.
+    """
+    import dataclasses
+
     rng = np.random.default_rng(seed)
     teams = teams or TEAMS
     counts = defaultdict(Counter)
     finals = Counter()
 
+    names = list(teams)
     for _ in range(n_sims):
+        iter_teams = teams
+        if strength_sigma > 0:
+            noise = rng.normal(0.0, strength_sigma, len(names))
+            iter_teams = {n: dataclasses.replace(teams[n], elo=teams[n].elo + e)
+                          for n, e in zip(names, noise)}
         events = []
-        result = simulate_tournament(rng, recorder=lambda k, t: events.append((k, t)), teams=teams)
+        result = simulate_tournament(rng, recorder=lambda k, t: events.append((k, t)),
+                                     teams=iter_teams)
         for k, t in events:
             counts[k][t] += 1
         finals[tuple(sorted((result["champion"], result["runner_up"])))] += 1
