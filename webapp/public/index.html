@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>World Cup 2026 Predictor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,15 +20,15 @@
       <button type="button" data-action="news">News sweep</button>
       <div class="dropdown" id="sim-dropdown">
         <button type="button" id="resim-btn" aria-haspopup="true" aria-expanded="false">
-          Re-simulate odds <span aria-hidden="true">&#9662;</span>
+          Re-simulate odds <span class="caret" aria-hidden="true">&#9662;</span>
         </button>
         <ul role="menu" aria-label="Simulation depth">
-          <li role="none"><button role="menuitem" type="button" data-sims="10000">10k — quick look (~30s)</button></li>
-          <li role="none"><button role="menuitem" type="button" data-sims="20000">20k — standard (~1 min)</button></li>
-          <li role="none"><button role="menuitem" type="button" data-sims="50000">50k — solid (~2 min)</button></li>
-          <li role="none"><button role="menuitem" type="button" data-sims="100000">100k — precise (~4 min)</button></li>
-          <li role="none"><button role="menuitem" type="button" data-sims="500000">500k — deep (~10-20 min)</button></li>
-          <li role="none"><button role="menuitem" type="button" data-sims="1000000">1M — overnight-grade (~30-45 min)</button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="10000">10k <small>quick look (~30s)</small></button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="20000">20k <small>standard (~1 min)</small></button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="50000">50k <small>solid (~2 min)</small></button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="100000">100k <small>precise (~4 min)</small></button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="500000">500k <small>deep (~10-20 min)</small></button></li>
+          <li role="none"><button role="menuitem" type="button" data-sims="1000000">1M <small>overnight-grade (~30-45 min)</small></button></li>
         </ul>
       </div>
     </div>
@@ -35,26 +38,49 @@
   <span id="job-status" role="status" aria-live="polite"></span></p>
 </header>
 
-<nav aria-label="Sections">
-  <div role="tablist" aria-label="Predictor sections">
-    <button role="tab" id="tab-matches" aria-controls="panel-matches" aria-selected="true">Matches</button>
-    <button role="tab" id="tab-lab" aria-controls="panel-lab" aria-selected="false" tabindex="-1">Match lab</button>
-    <button role="tab" id="tab-odds" aria-controls="panel-odds" aria-selected="false" tabindex="-1">Title odds</button>
-    <button role="tab" id="tab-groups" aria-controls="panel-groups" aria-selected="false" tabindex="-1">Groups</button>
-    <button role="tab" id="tab-radar" aria-controls="panel-radar" aria-selected="false" tabindex="-1">Team radar</button>
-    <button role="tab" id="tab-intel" aria-controls="panel-intel" aria-selected="false" tabindex="-1">Intelligence</button>
-    <button role="tab" id="tab-history" aria-controls="panel-history" aria-selected="false" tabindex="-1">Results</button>
+<nav aria-label="Main">
+  <div class="nav-inner">
+    <div role="tablist" aria-label="Predictor sections">
+      <button role="tab" id="tab-matches" aria-controls="panel-matches" aria-selected="true">Matches</button>
+      <button role="tab" id="tab-lab" aria-controls="panel-lab" aria-selected="false" tabindex="-1">Match lab</button>
+      <button role="tab" id="tab-odds" aria-controls="panel-odds" aria-selected="false" tabindex="-1">Title odds</button>
+      <button role="tab" id="tab-groups" aria-controls="panel-groups" aria-selected="false" tabindex="-1">Groups</button>
+      <button role="tab" id="tab-radar" aria-controls="panel-radar" aria-selected="false" tabindex="-1">Team radar</button>
+      <button role="tab" id="tab-intel" aria-controls="panel-intel" aria-selected="false" tabindex="-1">Intelligence</button>
+      <button role="tab" id="tab-history" aria-controls="panel-history" aria-selected="false" tabindex="-1">Results</button>
+    </div>
+    <div class="nav-tools">
+      <div class="day-nav" role="group" aria-label="Match day calendar">
+        <button type="button" id="prev-day" aria-label="Previous day">&larr;</button>
+        <label for="day-picker" class="visually-hidden">Match day</label>
+        <input type="date" id="day-picker" min="2026-06-11" max="2026-07-19" value="2026-06-11">
+        <button type="button" id="next-day" aria-label="Next day">&rarr;</button>
+      </div>
+      <div class="dropdown" id="support-dropdown">
+        <button type="button" id="support-btn" aria-haspopup="true" aria-expanded="false">
+          <span class="heart" aria-hidden="true">&#9825;</span> Support the creator <span class="caret" aria-hidden="true">&#9662;</span>
+        </button>
+        <ul role="menu" aria-label="Support the creator">
+          <li role="none">
+            <a role="menuitem" href="https://github.com/ManeeshBehera/FIFA-WC-2026"
+               target="_blank" rel="noopener">
+              <span aria-hidden="true">&#9733;</span> Star the repo on GitHub
+            </a>
+          </li>
+          <li role="none">
+            <a role="menuitem" href="https://www.linkedin.com/in/maneesh-behera/"
+               target="_blank" rel="noopener">
+              <span aria-hidden="true">in</span> Follow me on LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </nav>
 
 <main id="main">
   <section id="panel-matches" role="tabpanel" aria-labelledby="tab-matches" tabindex="0">
-    <div class="day-nav">
-      <button type="button" id="prev-day" aria-label="Previous day">&larr;</button>
-      <label for="day-picker" class="visually-hidden">Match day</label>
-      <input type="date" id="day-picker" min="2026-06-11" max="2026-07-19" value="2026-06-11">
-      <button type="button" id="next-day" aria-label="Next day">&rarr;</button>
-    </div>
     <div id="matches" aria-live="polite"></div>
   </section>
 

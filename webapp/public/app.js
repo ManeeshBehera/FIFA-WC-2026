@@ -10,14 +10,14 @@ let CORE = null;
 
 // ---------------- tabs (WAI-ARIA tab pattern with roving tabindex) ----------
 const tabs = [...document.querySelectorAll('[role="tab"]')];
-function selectTab(tab) {
+function selectTab(tab, focus = true) {
   tabs.forEach((t) => {
     const selected = t === tab;
     t.setAttribute('aria-selected', selected);
     t.tabIndex = selected ? 0 : -1;
     document.getElementById(t.getAttribute('aria-controls')).hidden = !selected;
   });
-  tab.focus();
+  if (focus) tab.focus();
 }
 tabs.forEach((tab, i) => {
   tab.addEventListener('click', () => selectTab(tab));
@@ -40,9 +40,15 @@ async function runEngineAction(action, btn, sims) {
       $('#job-status').textContent = 'Engine busy — try again shortly.';
       return;
     }
+    if (!r.ok) {
+      $('#job-status').textContent = `${action} failed (${r.status}) — see engine log.`;
+      return;
+    }
     await pollUntilIdle(action);
     await loadCore(true);
     await loadDay($('#day-picker').value, true);
+  } catch (e) {
+    $('#job-status').textContent = `${action} failed: ${e.message}`;
   } finally {
     btn.disabled = false;
   }
@@ -52,32 +58,47 @@ document.querySelectorAll('[data-action]').forEach((btn) => {
   btn.addEventListener('click', () => runEngineAction(btn.dataset.action, btn));
 });
 
-// re-simulate dropdown: opens on hover (CSS) and click; menu items run odds
-const dropdown = $('#sim-dropdown');
-const resimBtn = $('#resim-btn');
-resimBtn.addEventListener('click', () => {
-  const open = dropdown.classList.toggle('open');
-  resimBtn.setAttribute('aria-expanded', String(open));
-});
-document.addEventListener('click', (e) => {
-  if (!dropdown.contains(e.target)) {
-    dropdown.classList.remove('open');
-    resimBtn.setAttribute('aria-expanded', 'false');
-  }
-});
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && dropdown.classList.contains('open')) {
-    dropdown.classList.remove('open');
-    resimBtn.setAttribute('aria-expanded', 'false');
-    resimBtn.focus();
-  }
-});
-dropdown.querySelectorAll('[data-sims]').forEach((item) => {
-  item.addEventListener('click', () => {
-    dropdown.classList.remove('open');
-    resimBtn.setAttribute('aria-expanded', 'false');
-    runEngineAction('odds', resimBtn, item.dataset.sims);
+// dropdown menus (re-simulate, support the creator): hover via CSS,
+// click toggle + Escape + outside-click via JS, aria-expanded kept in sync
+function initDropdown(dd) {
+  const btn = dd.querySelector('[aria-haspopup]');
+  const close = () => {
+    dd.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  };
+  const open = () => {
+    dd.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  };
+  // hover-open lives here (not CSS) so aria-expanded and the Escape/toggle
+  // handlers always agree with what is on screen
+  dd.addEventListener('mouseenter', open);
+  dd.addEventListener('mouseleave', close);
+  btn.addEventListener('click', () => {
+    (dd.classList.contains('open') ? close : open)();
   });
+  document.addEventListener('click', (e) => {
+    if (!dd.contains(e.target)) close();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && dd.classList.contains('open')) {
+      close();
+      btn.focus();
+    }
+  });
+  dd.querySelectorAll('[role="menuitem"]').forEach((item) =>
+    item.addEventListener('click', close)
+  );
+  return btn;
+}
+
+const resimBtn = initDropdown($('#sim-dropdown'));
+initDropdown($('#support-dropdown'));
+
+document.querySelectorAll('#sim-dropdown [data-sims]').forEach((item) => {
+  item.addEventListener('click', () =>
+    runEngineAction('odds', resimBtn, item.dataset.sims)
+  );
 });
 
 async function pollUntilIdle(action) {
@@ -100,7 +121,7 @@ async function pollUntilIdle(action) {
 function outcomeBar(o, home, away) {
   const a = Math.round(o.win_a * 100);
   const d = Math.round(o.draw * 100);
-  const b = 100 - a - d;
+  const b = Math.max(0, 100 - a - d); // independent rounding can dip below 0
   return `<div class="outcome-bar" role="img"
     aria-label="${esc(home)} win ${a} percent, draw ${d} percent, ${esc(away)} win ${b} percent">
     <span class="seg-a" style="width:${a}%">${a}%</span>
@@ -115,7 +136,9 @@ function heatmap(grid, home, away) {
     .map(
       (row, i) =>
         `<tr><th scope="row">${i}</th>` +
-        row.map((p) => `<td>${(100 * p).toFixed(1)}</td>`).join('') +
+        row
+          .map((p) => `<td style="--p:${p.toFixed(4)}">${(100 * p).toFixed(1)}</td>`)
+          .join('') +
         '</tr>'
     )
     .join('');
@@ -185,13 +208,22 @@ function matchCard(m) {
 
 async function loadDay(date, bust) {
   const el = $('#matches');
-  el.innerHTML = '<p>Loading match maps…</p>';
-  const r = await fetch(`/api/day/${date}${bust ? '?t=' + Date.now() : ''}`);
+  el.innerHTML = '<p class="loading">Loading match maps…</p>';
+  let r;
+  try {
+    r = await fetch(`/api/day/${date}${bust ? '?t=' + Date.now() : ''}`);
+  } catch {
+    el.innerHTML = '<p>Could not reach the engine — is the server running?</p>';
+    return;
+  }
+  // a slow regeneration can resolve after the user moved on; drop stale days
+  if (date !== picker.value) return;
   if (!r.ok) {
     el.innerHTML = '<p>Could not load this day.</p>';
     return;
   }
   const data = await r.json();
+  if (date !== picker.value) return;
   el.innerHTML = data.matches.length
     ? data.matches.map(matchCard).join('')
     : '<p>No World Cup fixtures on this day (knockout pairings appear once groups finish).</p>';
@@ -391,7 +423,10 @@ function renderHistory() {
       const scorers = r.scorers
         .map((s) => `${s.player}${s.minute ? ' ' + s.minute : ''}`)
         .join(', ');
-      const dElta = (t) => (r.elo_after[t] - r.elo_before[t]).toFixed(0);
+      const dElta = (t) => {
+        const v = r.elo_after[t] - r.elo_before[t];
+        return (v >= 0 ? '+' : '') + v.toFixed(0);
+      };
       return `<tr>
         <td>${esc((r.date || '').slice(0, 10))}</td>
         <td>${esc(r.home)} <strong>${r.score[0]}-${r.score[1]}</strong> ${esc(r.away)}
@@ -400,8 +435,8 @@ function renderHistory() {
         <td>${esc(favLabel)} (${pct(favProb)}) ${hit}
           <br><small>xG ${p.xg[0]}-${p.xg[1]}, called ${p.top_score[0]},
           P(actual score) ${pct(p.p_actual_score)}</small></td>
-        <td class="num">${esc(r.home)} ${dElta(r.home) >= 0 ? '+' : ''}${dElta(r.home)}
-          <br>${esc(r.away)} ${dElta(r.away) >= 0 ? '+' : ''}${dElta(r.away)}</td>
+        <td class="num">${esc(r.home)} ${dElta(r.home)}
+          <br>${esc(r.away)} ${dElta(r.away)}</td>
       </tr>`;
     })
     .join('');
@@ -417,7 +452,13 @@ function renderHistory() {
 
 // ---------------- boot -------------------------------------------------------
 async function loadCore(bust) {
-  CORE = await (await fetch('/api/core' + (bust ? '?t=' + Date.now() : ''))).json();
+  const r = await fetch('/api/core' + (bust ? '?t=' + Date.now() : ''));
+  if (!r.ok) {
+    $('#meta').textContent =
+      'Engine artifacts not generated yet — run "Ingest results" (or wait for the first export) and reload.';
+    return;
+  }
+  CORE = await r.json();
   fillTeamSelects();
   renderOdds();
   renderGroups();
@@ -432,17 +473,28 @@ async function loadCore(bust) {
 const picker = $('#day-picker');
 const today = new Date().toISOString().slice(0, 10);
 if (today >= picker.min && today <= picker.max) picker.value = today;
-picker.addEventListener('change', () => loadDay(picker.value));
+// the calendar lives in the nav bar: picking a day always shows Matches
+function showDay(date) {
+  selectTab($('#tab-matches'), false);
+  loadDay(date);
+}
+picker.addEventListener('change', () => showDay(picker.value));
 $('#prev-day').addEventListener('click', () => stepDay(-1));
 $('#next-day').addEventListener('click', () => stepDay(1));
 function stepDay(delta) {
+  if (!picker.value) picker.value = picker.min; // cleared input would NaN the date
   const d = new Date(picker.value + 'T12:00:00Z');
   d.setUTCDate(d.getUTCDate() + delta);
   const v = d.toISOString().slice(0, 10);
   if (v >= picker.min && v <= picker.max) {
     picker.value = v;
-    loadDay(v);
+    showDay(v);
   }
 }
 
-loadCore().then(() => loadDay(picker.value));
+// matches still load even if core artifacts are missing or loadCore fails
+loadCore()
+  .catch((e) => {
+    $('#meta').textContent = `Could not load engine data: ${e.message}`;
+  })
+  .finally(() => loadDay(picker.value));
