@@ -62,18 +62,29 @@ document.querySelectorAll('[data-action]').forEach((btn) => {
 // click toggle + Escape + outside-click via JS, aria-expanded kept in sync
 function initDropdown(dd) {
   const btn = dd.querySelector('[aria-haspopup]');
+  let closeTimer = null;
+  const cancelClose = () => {
+    clearTimeout(closeTimer);
+    closeTimer = null;
+  };
   const close = () => {
+    cancelClose();
     dd.classList.remove('open');
     btn.setAttribute('aria-expanded', 'false');
   };
   const open = () => {
+    cancelClose();
     dd.classList.add('open');
     btn.setAttribute('aria-expanded', 'true');
   };
   // hover-open lives here (not CSS) so aria-expanded and the Escape/toggle
-  // handlers always agree with what is on screen
+  // handlers always agree with what is on screen; leaving only schedules a
+  // close so brief excursions off the menu don't slam it shut
   dd.addEventListener('mouseenter', open);
-  dd.addEventListener('mouseleave', close);
+  dd.addEventListener('mouseleave', () => {
+    cancelClose();
+    closeTimer = setTimeout(close, 300);
+  });
   btn.addEventListener('click', () => {
     (dd.classList.contains('open') ? close : open)();
   });
